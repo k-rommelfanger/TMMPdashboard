@@ -38,7 +38,7 @@ site_LF <- function(tree_measurements, site, bin_size) {
     ungroup()
   
   
-  bins <- seq(0, max(a$DBH_cm + bin_size), by = bin_size)
+  bins <- seq(2.5, max(a$DBH_cm + bin_size), by = bin_size)
   
   
   b <- a %>% 
@@ -58,10 +58,9 @@ site_LF <- function(tree_measurements, site, bin_size) {
   
   ggplot(b, aes(x=Bin, y=total_freq, fill=Mortality)) +
     geom_bar(stat="identity", position = "stack", width = .9, color="black", linewidth=.5) +
-    scale_x_discrete(breaks = br,
-                     labels = la[1:(length(unique(b$Bin)))],
+    scale_x_discrete(labels = c("2.5-3","3-6","6-9","9-12","12-15","15-18","18-21","21-24","24-27","27-30"),
                      limits = factor(br)) +
-    scale_fill_manual(values = c("Alive" = "darkolivegreen3", "Dead" = "burlywood4")) +
+    scale_fill_manual(values = c("Alive" = "darkgreen", "Dead" = "salmon4")) +
     xlab(label = "DBH Size Class (cm)") + 
     ylab(label = "Relative Frequency") + 
     ggtitle(site) +
@@ -116,8 +115,7 @@ all_sites_LF <- function(tree_measurements, year, bin_size) {
   
   ggplot(b, aes(x = Bin, y = total_freq, fill = Mortality)) +
     geom_bar(stat = "identity", position = "stack", width = 0.9, color = "black", linewidth = 0.5) +
-    scale_x_discrete(breaks = br,
-                     labels = la[1:length(unique(b$Bin))],
+    scale_x_discrete(labels = c("2.5-3","3-6","6-9","9-12","12-15","15-18","18-21","21-24","24-27","27-30"),
                      limits = factor(br)) +
     scale_fill_manual(values = c("Alive" = "darkolivegreen3", "Dead" = "burlywood4")) +
     xlab("DBH Size Class (cm)") +
@@ -183,10 +181,10 @@ create_tree_measurement_table <- function(tree_measurements, tree_heights) {
       # empty = md('&emsp;&emsp;&emsp;'),
       SY = md("Year <br/> &emsp; "),
       RHMA_alive = md("*R. mangle* <br/> (%)"),
-      AVGE_alive = md("*A. germinians* <br/> (%)"),
+      AVGE_alive = md("*A. germinans* <br/> (%)"),
       LARA_alive = md("*L. racemosa* <br/> (%)"),
       RHMA_dead = md("*R. mangle* <br/> (%)"),
-      AVGE_dead = md("*A. germinians* <br/> (%)"),
+      AVGE_dead = md("*A. germinans* <br/> (%)"),
       LARA_dead = md("*L. racemosa* <br/> (%)"),
       Height = md("Height <br/> (m)"),
       Basal_Area = md("Basal area <br/> (m²/ha)"),
@@ -473,7 +471,7 @@ sapling_density <- function(regen, sapling, species, densio, breaks = NULL) {
     
     a <- case_when(
       species == "RHMA" ~ "R. mangle",
-      species == "AVGE" ~ "A. germinians",
+      species == "AVGE" ~ "A. germinans",
       species == "LARA" ~ "L. racemosa"
     )  
   return(a)
@@ -584,7 +582,7 @@ sapling_rel_abundance_table <- function(regen, sapling, species, densio) {
     
     a <- case_when(
       species == "RHMA" ~ "R. mangle",
-      species == "AVGE" ~ "A. germinians",
+      species == "AVGE" ~ "A. germinans",
       species == "LARA" ~ "L. racemosa"
     )  
     return(a)
@@ -707,7 +705,7 @@ seedling_rel_abundance_table <- function(regen_data) {
       empty = md('&emsp;&emsp;&emsp;'),
       SY = "",
       RHMA = md("*R. mangle*"),
-      AVGE = md("*A. germinians*"),
+      AVGE = md("*A. germinans*"),
       LARA = md("*L. racemosa*")
     ) %>% 
     cols_align(align = "center", everything()) %>%

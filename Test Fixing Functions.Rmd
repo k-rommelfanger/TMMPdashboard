@@ -1,0 +1,51 @@
+---
+title: "Test"
+output: html_document
+date: "2026-06-15"
+---
+
+```{r}
+
+  
+  a <- tree_measurements %>% filter(Site == "Brewers Bay" & DBH_cm >= 0 & Mortality != "NA") %>%  
+    mutate(Mortality = if_else(Mortality == "Dying", "Alive", Mortality)) %>% 
+    group_by(SY, DBH_cm, Mortality) %>% 
+    summarise(n = n(), .groups = "drop") %>%
+    group_by(SY) %>% 
+    mutate(freq = n / sum(n)) %>% 
+    ungroup()
+  
+  
+  bins <- seq(2.5, max(a$DBH_cm + 3), by = 3)
+  
+  
+  b <- a %>% 
+    group_by(SY, Mortality) %>% 
+    nest() %>% 
+    mutate(LF = map(data, ~ .x %>%
+                      data.frame() %>% 
+                      mutate(Bin = cut(DBH_cm, breaks = bins, right = FALSE)) %>%
+                      group_by(Bin) %>%
+                      summarise(total_freq = sum(freq, na.rm = TRUE)))) %>% 
+    unnest(LF) %>% 
+    ungroup()
+  
+  
+  br <- unique(b$Bin)
+  la <- labeler(bin_num = length(unique(b$Bin)) , bin_size = bin_size)
+  
+  ggplot(b, aes(x=Bin, y=total_freq, fill=Mortality)) +
+    geom_bar(stat="identity", position = "stack", width = .9, color="black", linewidth=.5) +
+    scale_x_discrete(labels = c("2.5-3","3-6","6-9","9-12","12-15","15-18","18-21","21-24","24-27","27-30"),
+                     limits = factor(br)) +
+    scale_fill_manual(values = c("Alive" = "darkolivegreen3", "Dead" = "burlywood4")) +
+    xlab(label = "DBH Size Class (cm)") + 
+    ylab(label = "Relative Frequency") + 
+    ggtitle("Title") +
+    theme_Publication() +
+    facet_wrap(~SY)
+
+
+
+```
+

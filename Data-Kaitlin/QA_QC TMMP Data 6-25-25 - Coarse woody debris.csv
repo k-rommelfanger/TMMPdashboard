@@ -1,0 +1,1411 @@
+SY,Date surveyed,Island,Site,Plot,Transect_num,DBH_cm,Decay_class,Crew
+2022,9/20/2021,St Thomas,Brewers Bay,B,1,10.9,I,"HS, KWG, AND"
+2022,9/20/2021,St Thomas,Brewers Bay,B,2,8.9,S,"HS, KWG, AND"
+2022,9/20/2021,St Thomas,Brewers Bay,B,3,7.5,I,"HS, KWG, AND"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,7.6,I,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,10.4,S,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,11.9,I,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,15.9,R,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,8.2,R,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,11.5,S,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,1,8.3,I,"AD, KWG, KH"
+2022,9/21/2021,St Thomas,Brewers Bay,C,3,10.8,R,"AD, KWG, KH"
+2022,10/14/2021,St Thomas,Compass Point,A,1,8.1,S,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.5,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,9.6,R,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8.1,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.5,R,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8.8,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.6,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8.4,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8.2,T,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.9,R,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.9,S,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,11.2,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,8.8,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,9.2,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.5,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,7.7,S,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,10.3,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,A,3,9.6,I,"LU,AD"
+2022,10/14/2021,St Thomas,Compass Point,B,1,8.4,I,"KH,KWG"
+2022,10/14/2021,St Thomas,Compass Point,B,1,13.1,I,"KH,KWG"
+2022,10/14/2021,St Thomas,Compass Point,B,1,7.8,I,"KH,KWG"
+2022,10/14/2021,St Thomas,Compass Point,B,3,8.3,I,"KH,KWG"
+2022,10/14/2021,St Thomas,Compass Point,B,3,10,I,"KH,KWG"
+2022,10/14/2021,St Thomas,Compass Point,C,1,7.7,R,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,1,7.9,I,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,2,8.4,I,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,2,10.8,I,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,2,8.1,I,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,3,8.4,R,"AD,LP"
+2022,10/14/2021,St Thomas,Compass Point,C,3,8.5,S,"AD,LP"
+2022,10/28/2021,St Thomas,Francis Bay,A,1,8.1,I,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,1,11,S,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,1,15.3,R,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,2,7.88,I,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,3,11.5,R,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,3,7.55,I,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,3,7.6,I,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,A,3,11.05,I,"AND,VB"
+2022,10/28/2021,St Thomas,Francis Bay,C,1,8,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,17,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,11.2,R,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,11.6,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,8.7,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,12.2,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,12.7,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,2,17.4,I,"HS,LP"
+2022,10/28/2021,St Thomas,Francis Bay,C,3,7.5,I,"HS,LP"
+2022,11/15/2021,St Croix,Great Pond,A,1,7.6,R,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,A,1,7.9,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,A,2,8.2,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,A,3,8,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,1,7.7,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,1,9.6,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,2,8,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,2,8,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,3,9,I,"HL,KWG"
+2022,11/15/2021,St Croix,Great Pond,B,3,8,I,"HL,KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,15,R,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,10.3,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,11.8,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,7.7,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,8.1,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,10,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,1,9.8,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,8.1,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,8.4,R,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,11.9,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,8.2,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,7.9,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,7.8,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,7.5,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,8.4,I,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,10.1,S,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,8.1,S,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,A,3,7.7,S,"AND, KWG, HS, AJH"
+2022,11/17/2021,St Croix,Krause Lagoon,B,3,8.5,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,1,8.1,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,2,9,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,2,8.8,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,2,8.9,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,2,8.8,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,7.5,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,7.5,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,7.9,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,10.1,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,11.4,R,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,8,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,7.8,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,7.7,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,8.7,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,8.2,I,"AND, KWG"
+2022,11/17/2021,St Croix,Krause Lagoon,C,3,9.2,I,"AND, KWG"
+2022,10/26/2021,St John,Lameshur Bay,A,1,7.6,I,"KWG,AH"
+2022,10/26/2021,St John,Lameshur Bay,A,1,11.3,I,"KWG,AH"
+2022,10/26/2021,St John,Lameshur Bay,A,1,13.2,I,"KWG,AH"
+2022,10/26/2021,St John,Lameshur Bay,B,1,17.9,I,"KWG,AJH"
+2022,10/26/2021,St John,Lameshur Bay,B,1,10.2,I,"KWG,AJH"
+2022,10/26/2021,St John,Lameshur Bay,B,1,29.1,I,"KWG,AJH"
+2022,10/26/2021,St John,Lameshur Bay,B,1,16.9,I,"KWG,AJH"
+2022,10/26/2021,St John,Lameshur Bay,C,1,8.3,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,2,17.6,I,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,2,8.5,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,2,9.2,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,2,10,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,3,7.5,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,3,8.1,R,"AND,LP"
+2022,10/26/2021,St John,Lameshur Bay,C,3,15.9,R,"AND,LP"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.8,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,13.3,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,7.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,11.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,8.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.8,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.2,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,8.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,8.7,R,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,13.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,7.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,11.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,8.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,15.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,8.6,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,10,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,15.3,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,7.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,1,11.9,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,10.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,10.6,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,8.9,R,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,9.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,11.6,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,8.3,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,11.2,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,10.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,9.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,7.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,8,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,11.5,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,11.9,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,7.6,R,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,7.7,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,2,10.9,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.8,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,9.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.2,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,9.3,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,7.8,R,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.2,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,8.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,9.6,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,15.4,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,11.1,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,13.7,R,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,A,3,13,I,"KWG,LU"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,16.2,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,8.6,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,11.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,18.6,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,10.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,12.4,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,9.2,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,10.8,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,19,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,8.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,11.9,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,10.3,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,9.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,9.8,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,11,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,12.7,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,8.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,8.5,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,9.8,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,15.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,7.5,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,9.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,1,15.6,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,10.4,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,9.2,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,12.2,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,7.9,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,12.5,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,7.8,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,8.1,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,12.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,7.8,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,11.6,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,13.5,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,12.1,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,15.1,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,9.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,8.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,2,10.4,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,11.8,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,11.3,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,10.9,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,9.1,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,7.5,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,12.1,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,12.2,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,11.1,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,10,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,8.1,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,9.4,R,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,11.9,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,10.2,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,8.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,B,3,8.4,I,"KWG, ANG"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,9.7,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,11.4,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,8.9,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,7.6,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,7.5,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,9.1,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,22.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,8.1,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,8.2,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,10.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,9.6,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,8.4,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,1,10.8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,7.8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,10.5,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,12,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.1,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.4,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,15.3,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,11.1,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,12.6,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,9.8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,10.3,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.4,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.6,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,9.7,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,10.7,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,2,8.9,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,10,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,7.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.1,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.4,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,10.6,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.4,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,9.7,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,10.2,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,9.9,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,9.1,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.1,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.1,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,7.5,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.5,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,7.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,11.4,I,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,7.5,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,8.4,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,7.8,R,"AND,AJH"
+2022,10/22/2021,St Thomas,Magens Bay,C,3,16.7,R,"AND,AJH"
+2022,10/1/2021,St Thomas,Mandahl Bay,A,1,8.4,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,A,2,11.6,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,A,2,7.7,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,A,2,7.5,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,1,9.5,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,1,11,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,2,8,S,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,2,7.6,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,2,8,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,3,10.5,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,3,9,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,3,11,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,3,13.1,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,B,3,12,R,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,1,8.2,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,1,8.4,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,1,14.9,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,3,8.3,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,3,9.4,I,"LU,LP"
+2022,10/1/2021,St Thomas,Mandahl Bay,C,3,9.4,I,"LU,LP"
+2022,4/5/2022,St John,Mary Creek,A,1,8.3,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,1,8.2,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,1,11.6,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,3,8.2,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,3,11.9,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,3,16.4,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,A,3,8.1,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,1,10.6,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,1,8.2,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,2,14.8,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,2,8.5,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,2,8.6,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,2,12.7,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,3,19.8,S,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,3,11.3,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,3,8.8,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,B,3,7.6,I,"KWG, LU"
+2022,4/5/2022,St John,Mary Creek,C,1,7.8,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,1,11.4,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,1,9.5,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,1,10.3,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,1,14.8,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,1,14.3,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,2,10,S,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,2,19.3,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,2,7.9,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,2,12.4,S,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,16.2,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,9.3,R,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,9,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,7.9,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,8.6,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,9.2,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,10.4,I,"KWG, AND"
+2022,4/5/2022,St John,Mary Creek,C,3,8.7,I,"KWG, AND"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,79.89,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,10.9,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,7.5,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,7.8,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,8,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,7.9,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,16.6,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,7.5,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,7.6,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,1,9.1,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,15.3,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,8.8,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,8.1,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,15.5,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,12,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,5.5,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,15.3,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,10.8,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,10.7,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,11.3,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,9.7,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,11.1,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,12.2,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,12.1,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,2,5.6,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,9.4,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,10.9,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,7.5,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,12.6,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,9.8,R,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,7.9,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,10.2,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,8.3,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,8.1,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,A,3,8.1,I,"LU,LP,PKG,HS,KH,AD"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,14.7,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,9.7,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,14.4,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,9.1,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,7.5,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,11.2,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,13.5,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,1,16.1,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,2,8.7,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,2,8,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,15.2,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,13,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,13.1,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,27.2,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,8.7,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,12.3,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,B,3,23.6,I,"KH,LU,HS,AD,KWG,LP"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,8.6,S,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,8.7,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,7.8,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,24.9,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,12.6,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,12,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,12.3,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,14.8,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,1,7.9,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,2,9,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,2,10.6,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,2,8.9,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,3,7.6,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,3,12.3,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,3,9.3,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,3,11.2,I,"AD,HS,KH,LU,LP,KWG"
+2022,9/23/2021,St Thomas,Perseverance Bay,C,3,13.8,I,"AD,HS,KH,LU,LP,KWG"
+2022,10/29/2021,St John,Princess Bay,A,1,9.2,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,1,8.3,R,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,1,8,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,1,7.5,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,1,12.1,"R, T","AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,1,11.4,"I, T","AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,2,9.7,"I, T","AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,3,8.2,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,3,7.5,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,3,10.1,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,3,11.4,I,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,A,3,9.4,R,"AND,KH"
+2022,10/29/2021,St John,Princess Bay,B,1,9.5,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,7.6,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,10.2,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,8.7,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,14.1,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,26.7,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,1,7.7,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,2,9.2,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,2,12.1,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,2,9.3,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,B,3,7.8,I,"KWG,AND"
+2022,10/29/2021,St John,Princess Bay,C,1,16,I,LU
+2022,10/29/2021,St John,Princess Bay,C,1,10.2,I,LU
+2022,10/29/2021,St John,Princess Bay,C,1,9.7,I,LU
+2022,10/29/2021,St John,Princess Bay,C,2,8.5,I,LU
+2022,10/29/2021,St John,Princess Bay,C,3,12.5,I,LU
+2022,10/29/2021,St John,Princess Bay,C,3,11.6,I,LU
+2022,10/29/2021,St John,Princess Bay,C,3,13,I,LU
+2022,12/3/2021,St John,Reef Bay,A,1,8,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,1,19.1,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,1,9.3,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,1,14.8,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,2,12.1,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,2,9.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,2,11.4,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,2,7.8,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,2,15,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,3,8.9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,3,8.9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,3,10.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,A,3,16.2,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,11.5,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,8,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,11,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,1,9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,23,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,13.4,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,14.3,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,17.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,9.2,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,9.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,12.2,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,17.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,2,9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,11.9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,8.1,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,14.3,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,10.6,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,13.9,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,8.1,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,11.5,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,8.5,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,8.7,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,B,3,26.3,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,9.5,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,8.7,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,7.7,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,20,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,20.5,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,1,20,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,13.2,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,10.3,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,15.3,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,6.5,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,9.2,"I, R","AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,11.5,S,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,11.3,S,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,9.7,S,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,9.5,S,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,21.1,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,11.2,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,13.7,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,2,13,S,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,13.7,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,10.9,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,9,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,7.5,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,18.3,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,8,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,11.4,R,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,17.7,I,"AD,KH"
+2022,12/3/2021,St John,Reef Bay,C,3,11.3,R,"AD,KH"
+2022,11/17/2021,St Croix,Salt River,A,1,15,R,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,10.3,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,11.8,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,7.7,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,8.1,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,10,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,1,9.8,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,8.1,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,8.4,R,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,11.9,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,8.2,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,7.9,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,7.8,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,7.5,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,8.4,I,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,10.1,S,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,8.1,S,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,A,3,7.7,S,"KWG, AD, HS, AH"
+2022,11/17/2021,St Croix,Salt River,B,3,8.5,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,1,8.1,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,2,9,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,2,8.8,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,2,8.9,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,2,8,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,7.5,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,7.5,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,7.9,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,10.1,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,11.4,R,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,8,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,7.8,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,7.7,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,8.7,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,8.2,I,"KWG, AND"
+2022,11/17/2021,St Croix,Salt River,C,3,9.2,I,"KWG, AND"
+2022,11/16/2021,St Croix,Southgate,B,1,7.9,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,B,2,7.5,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,B,2,7.9,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,B,2,7.9,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,B,3,8.1,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,B,3,7.6,I,"KWG,JV"
+2022,11/16/2021,St Croix,Southgate,C,3,10.3,I,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,8.6,I,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,9.4,S,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,7.6,I,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,11.1,S,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,8.2,I,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,12.7,I,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,7.6,R,"KWG,HS,AD,AH"
+2022,11/16/2021,St Croix,Southgate,C,3,12.1,R,"KWG,HS,AD,AH"
+2022,10/19/2021,St Thomas,STEER Basin,A,1,7.5,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,2,12.5,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,9.1,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,8.2,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,8.3,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,7.6,I,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,10.1,R,"AND, KWG"
+2022,10/19/2021,St Thomas,STEER Basin,A,3,8.9,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,1,9,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,1,10.1,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,1,8.5,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,1,8.2,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,2,7.5,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,2,8.9,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,3,7.8,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,3,8.7,I,"AND, KWG"
+2022,2/22/2022,St Thomas,STEER Basin,C,3,8.6,I,"AND, KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,A,1,10.2,I,"LU,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,A,1,9.3,I,"LU,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,9.6,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,8.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,10.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,9.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,10.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,1,15.7,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,10,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,8.1,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,15.8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,7.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,8.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,16.3,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,10.3,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,7.7,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,9.5,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,2,11.1,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,3,11.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,3,7.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,3,8.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,3,9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,B,3,7.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,10.7,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,15.2,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,10.1,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,11,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,8.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,11.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,8.1,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,9.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,12.2,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,7.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,10.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,9.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,12.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,7.8,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,11.6,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,7.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,9.1,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,7.8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,8.7,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,8.1,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,1,12.6,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,7.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,9.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,10.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,7.8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,10.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,9.4,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,11.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,10.5,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,13.8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,9.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,9.2,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,7.7,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,14.8,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,2,10.5,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,8.1,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,8.2,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,8.3,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,8.9,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,18.6,I,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,18.2,R,"AND,KWG"
+2022,10/14/2021,St Thomas,STEER Fringe,C,3,17.5,I,"AND,KWG"
+2022,12/2/2021,St John,Turner Bay,C,3,7.6,S,"AD,KH"
+2022,12/2/2021,St John,Turner Bay,C,3,7.5,I,"AD,KH"
+2022,9/28/2021,St Thomas,Vessup Bay,A,1,15,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,1,9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,9.8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,26,S,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,13.4,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,9.8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,10.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,7.6,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,7.9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,11.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,A,2,9.4,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,8.8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,7.6,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,14.2,R,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,11.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,20.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,13.4,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,12.8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,8.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,10.5,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,14.6,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,1,12.1,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,9.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,8.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,7.9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,14,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,12,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,10.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,10.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,7.7,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,11.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,10.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,2,8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,18,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,26.2,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,23.8,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,9.9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,11.9,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,12.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,10,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,14.3,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,8.6,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,B,3,8.7,I,KWG/KH
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,7.8,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,7.5,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,8.3,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,9.1,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,7.8,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,13.5,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,9.5,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,10.3,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,9.5,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,8.2,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,20.5,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,15.7,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,10,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,1,7,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,14.4,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,9.6,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,8.1,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,8.2,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,9.1,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,9,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,7.6,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,2,8.2,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,8.1,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.6,R,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.6,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,8.3,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,8.9,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,10.9,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.8,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,8.2,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,9.2,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,12.4,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,10.6,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,10.5,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,9.9,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.9,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,9.8,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,12.3,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,8.8,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,11.4,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.6,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,7.9,I,"HAS,LU,AJH"
+2022,9/28/2021,St Thomas,Vessup Bay,C,3,15.5,I,"HAS,LU,AJH"
+2022,2/25/2022,St John,Water Creek,A,1,17.2,R,AND
+2022,2/25/2022,St John,Water Creek,A,1,9.6,R,AND
+2022,2/25/2022,St John,Water Creek,A,1,8.4,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,7.5,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,7.5,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,21.5,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,12.4,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,9.3,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,12.4,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,9.8,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,10.7,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,9.6,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,16.1,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,9.7,R,AND
+2022,2/25/2022,St John,Water Creek,A,2,15.9,R,AND
+2022,2/25/2022,St John,Water Creek,A,3,8.2,R,AND
+2022,2/25/2022,St John,Water Creek,B,1,23,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,1,10,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,1,18.5,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,1,12,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,2,9,R,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,8,R,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,8.5,R,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,9,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,9,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,10,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,9.5,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,B,3,7.5,S,"KH, JT"
+2022,2/25/2022,St John,Water Creek,C,1,12.4,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,11.3,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,8.52,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,7.8,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,13.3,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,7.5,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,1,7.5,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,2,7.9,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,2,7.5,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,2,7.5,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,9.7,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,8.2,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,8.4,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,9.7,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,9.5,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,12.7,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,7.7,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,11.5,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,7.5,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,10.1,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,9,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,13.1,I,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,37,S,"AND, TNT"
+2022,2/25/2022,St John,Water Creek,C,3,9.4,S,"AND, TNT"
+2024,6/5/2024,St Thomas,Brewers Bay,B,1,8,S,"JS, SM"
+2024,6/5/2024,St Thomas,Brewers Bay,B,2,15.4,R,"JS, SM"
+2024,6/17/2024,St Thomas,Brewers Bay,C,2,8.9,R,"DG, JS"
+2024,6/11/2024,St Thomas,Compass Point,A,1,9.7,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,8,S,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,9.2,S,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,8.8,S,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,7.9,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,10.2,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,8.5,S,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,1,10.9,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,11.4,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,9.1,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,9.2,S,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,14.8,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,9.3,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,8,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,12.2,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,8,R,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,A,3,8.1,I,"HM, LU"
+2024,6/11/2024,St Thomas,Compass Point,B,1,9.6,S,"SM, AD"
+2024,6/11/2024,St Thomas,Compass Point,B,1,8.6,I,"SM, AD"
+2024,6/11/2024,St Thomas,Compass Point,B,2,8.7,I,"SM, AD"
+2024,6/11/2024,St Thomas,Compass Point,C,1,7.9,S,"HM, LU"
+2024,7/17/2024,St Thomas,Francis Bay,A,1,7.6,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,1,15.3,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,1,9.9,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,1,12.9,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,2,7.7,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,2,10.8,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,2,7.7,R,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,2,7.8,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,3,7.7,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,3,12.1,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,A,3,7.6,S,"SM, KH"
+2024,7/17/2024,St Thomas,Francis Bay,B,1,11.9,I,SM
+2024,7/17/2024,St Thomas,Francis Bay,B,3,8.4,I,SM
+2024,7/17/2024,St Thomas,Francis Bay,B,3,8.5,S,SM
+2024,7/17/2024,St Thomas,Francis Bay,C,1,13.5,I,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,1,10.1,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,1,8.1,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,1,17.1,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,1,10.1,I,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,1,12.1,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,2,7.8,S,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,11.4,I,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,11.1,I,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,13.1,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,10.5,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,10.7,R,AND
+2024,7/17/2024,St Thomas,Francis Bay,C,3,14.25,R,AND
+2024,7/24/2024,St Croix,Great Pond,A,1,16,I,"KWG, SM"
+2024,7/24/2024,St Croix,Great Pond,A,1,9.5,S,"KWG, SM"
+2024,7/24/2024,St Croix,Great Pond,A,1,8.8,S,"KWG, SM"
+2024,7/22/2024,St Croix,Great Pond,B,1,9.8,I,"AND, JS, SM"
+2024,7/22/2024,St Croix,Great Pond,B,3,9,S,"AND, JS, SM"
+2024,7/22/2024,St Croix,Great Pond,B,3,7.5,S,"AND, JS, SM"
+2024,7/22/2024,St Croix,Great Pond,B,3,12.2,I,"AND, JS, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,7.5,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,9.1,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,7.5,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,9,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,11.1,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,1,10.4,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,9.4,I,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,11.7,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,7.8,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,8.1,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,9.8,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,2,12.1,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,10.5,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,17.6,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,10.8,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,9.1,R,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,8.3,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,7.5,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,8,I,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,8.4,I,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,10.1,S,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,8.4,I,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,9.1,R,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,A,3,10.4,I,"DG, JS"
+2024,7/23/2024,St Croix,Krause Lagoon,B,1,7.8,R,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,B,2,7.6,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,B,3,9.9,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,C,2,8.3,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,C,2,8.4,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,C,2,7.5,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,C,2,7.6,S,"KWG, SM"
+2024,7/23/2024,St Croix,Krause Lagoon,C,3,8.2,S,"KWG, SM"
+2024,8/6/2024,St John ,Lameshur Bay,A,1,8.7,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,1,7.5,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,1,8.3,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,1,7.8,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,1,7.5,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,2,16.2,I,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,8.4,R,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,21.7,I,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,24,R,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,7.6,R,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,9.3,S,AND
+2024,8/6/2024,St John ,Lameshur Bay,A,3,8,I,AND
+2024,8/6/2024,St John ,Lameshur Bay,B,3,18,I,"KH, DG"
+2024,8/6/2024,St John ,Lameshur Bay,B,3,18,I,"KH, DG"
+2024,8/6/2024,St John ,Lameshur Bay,B,3,18,I,"KH, DG"
+2024,8/6/2024,St John ,Lameshur Bay,B,3,17,I,"KH, DG"
+2024,7/9/2024,St Thomas,Magens Bay,A,1,11.3,S,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.3,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,11,S,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.9,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,7.6,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,10.4,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,10.3,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,14.6,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,13.1,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,10.5,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.4,S,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,12.7,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,9,S,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.4,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,9.2,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,7.7,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,10.1,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.1,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,7.7,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,9,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,12.4,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,7.5,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,9.1,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.7,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,1,8.7,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,13,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,9.2,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,12.1,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,9,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.3,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.5,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.6,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.4,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,7.5,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.9,S,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,9.3,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,9.3,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,7.5,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,8.8,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,7.6,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,2,7.9,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,3,8.9,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,3,9.5,I,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,3,12.3,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,3,8.3,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,A,3,7.5,R,AND
+2024,7/9/2024,St Thomas,Magens Bay,B,1,10,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,9.2,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,8.7,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,10.6,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,8.1,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,8.5,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,16.6,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,8,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,8.1,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,9.5,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,12.2,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,9.6,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,1,11.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,10.5,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,11.7,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,9.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,9.7,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,9,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,12.7,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,15.9,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,9.1,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,9.9,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,12.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,2,10.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,11.1,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,10.8,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,7.7,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,11.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,9.3,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,9.3,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,7.7,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,15,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,8.1,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,8.9,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,17,S,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,8.8,I,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,7.7,R,LU/SM
+2024,7/9/2024,St Thomas,Magens Bay,B,3,7.6,I,LU/SM
+2024,7/19/2024,St Thomas,Magens Bay,C,1,9.2,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,8.3,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,10.3,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,8.8,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,7.5,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,9.8,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,13.6,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,13.6,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,10.7,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,9.4,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,8.9,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,1,7.6,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,11.8,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,13.3,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.8,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,7.6,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,10.4,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,10.3,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.9,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,13.2,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.5,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,7.7,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,12.8,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,9.2,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,9.6,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,10.9,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.9,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,10.4,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.6,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.9,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,9.7,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,9.5,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,9.7,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.6,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,11.2,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,2,8.7,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,9.4,S,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,11.2,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,8.3,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,10.1,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,16.9,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,7.8,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,7.9,S,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,8.5,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,8.7,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,11.1,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,9.6,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,8.4,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,7.8,S,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,14.2,I,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,7.5,R,"KH, AD"
+2024,7/19/2024,St Thomas,Magens Bay,C,3,11.2,R,"KH, AD"
+2024,6/7/2024,St Thomas,Mandahl Bay,A,2,7.5,S,"LU, DG"
+2024,6/7/2024,St Thomas,Mandahl Bay,A,2,8.3,S,"LU, DG"
+2024,6/7/2024,St Thomas,Mandahl Bay,B,2,8.2,S,"SH, JC"
+2024,6/7/2024,St Thomas,Mandahl Bay,B,2,11.9,S,"SH, JC"
+2024,6/7/2024,St Thomas,Mandahl Bay,B,3,8,I,"SH, JC"
+2024,6/7/2024,St Thomas,Mandahl Bay,B,3,7.9,I,"SH, JC"
+2024,6/7/2024,St Thomas,Mandahl Bay,B,3,8.9,S,"SH, JC"
+2024,6/7/2024,St Thomas,Mandahl Bay,C,1,9.4,S,"JS, SH"
+2024,8/9/2024,St John ,Mary Creek,A,1,7.6,S,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,1,8.6,S,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,1,9.6,S,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,2,13.3,R,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,2,8.6,I,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,2,9.7,S,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,3,11.6,S,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,A,3,8.9,I,"AND, SM"
+2024,8/9/2024,St John ,Mary Creek,B,1,9.1,S,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,1,7.6,S,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,2,11.2,I,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,2,9.4,S,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,2,11.8,R,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,2,10.6,I,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,B,3,8.2,S,"AD, SM"
+2024,8/9/2024,St John ,Mary Creek,C,1,8.1,S,"SM, AND"
+2024,8/9/2024,St John ,Mary Creek,C,1,7.9,I,"SM, AND"
+2024,8/9/2024,St John ,Mary Creek,C,2,12.8,S,"SM, AND"
+2024,8/9/2024,St John ,Mary Creek,C,3,11.2,I,"SM, AND"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,12.7,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,10.6,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,13.6,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,15.4,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,12.7,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,1,8.6,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,13.1,I,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,10.6,I,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,18.5,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,8.8,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,9.2,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,8,I,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,11.1,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,11.4,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,9.9,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,2,8.6,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,17.1,I,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,12.8,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,7.5,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,7.5,S,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,8.6,I,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,A,3,12.9,R,"AD, KG"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,1,7.5,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,1,15,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,1,9.1,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,16.1,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,17.2,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,9.8,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,8.6,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,11.1,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,9.7,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,8.6,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,10.9,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,2,10.5,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,11.5,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,8.5,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,12.2,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,11.4,S,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,8.1,R,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,9.2,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,B,3,13.1,I,"SH, SM"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,9.5,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,9.9,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,8.4,R,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,8,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,7.6,R,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,7.5,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,7.5,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,8.3,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,1,9.1,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,7.6,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,10.7,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,7.8,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,8.1,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,9.6,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,14.9,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,2,10.2,R,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,9.1,R,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,15.5,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,11.6,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,6.3,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,11.7,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,11.2,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,11.2,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,10.9,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,8.7,I,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,8.1,S,"AD, JS"
+2024,6/12/2024,St Thomas,Perseverance Bay,C,3,12.3,I,"AD, JS"
+2024,7/18/2024,St John,Princess Bay,A,1,11.7,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,18.9,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,9.7,I,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,10.5,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,13.3,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,9.9,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,7.5,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,13.8,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,13.7,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,9.1,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,1,9.3,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,2,7.5,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,2,9.4,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,3,12.6,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,3,7.5,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,3,14.1,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,3,11.3,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,A,3,9.7,S,"HM, AND"
+2024,7/18/2024,St John,Princess Bay,B,1,12.7,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,12.4,I,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,7.6,I,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,10.4,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,7.7,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,10.2,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,10.9,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,10.6,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,1,13.2,I,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,2,11,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,2,9.5,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,2,8,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,2,9,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,2,7.7,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,9.6,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8.6,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8.8,I,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8.2,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,10.7,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8.6,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,15.7,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,7.8,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,B,3,8.9,S,"AND, SM"
+2024,7/18/2024,St John,Princess Bay,C,1,7.5,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,2,11.5,R,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,2,8.1,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,2,8.1,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,2,14.2,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,2,14.5,I,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,11,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,8.4,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,13.2,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,10.8,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,9.6,S,"AND, HM"
+2024,7/18/2024,St John,Princess Bay,C,3,12.8,S,"AND, HM"
+2024,9/18/2024,St John ,Reef Bay,A,1,7.8,R,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,1,12.1,R,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,1,7.7,I,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,2,8.5,R,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,3,10.2,R,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,3,8.9,R,"LU, AD"
+2024,9/18/2024,St John ,Reef Bay,A,3,10.3,R,"LU, AD "
+2024,9/18/2024,St John ,Reef Bay,B,1,15.9,I,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,1,9.5,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,1,8.6,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,1,12.6,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,2,8.9,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,2,9.8,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,2,7.9,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,2,16.5,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,2,9.5,I,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,3,8.7,S,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,11.4,S,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,10,R,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,15.6,S,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,8.3,R,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,12.1,R,"AD, SM"
+2024,9/18/2024,St John,Reef Bay,B,3,9.8,R,"AD, SM "
+2024,9/18/2024,St John,Reef Bay,B,3,14.3,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,1,11.7,R,"AD, SM"
+2024,9/18/2024,St John ,Reef Bay,B,1,10.2,R,"AD, SM "
+2024,9/18/2024,St John ,Reef Bay,B,1,14.6,I,"AD, SM"
+2024,7/24/2024,St Croix,Salt River,A,1,9.3,S,"KWG, SM"
+2024,7/24/2024,St Croix,Salt River,A,1,8.5,S,"KWG, SM"
+2024,7/24/2024,St Croix,Salt River,A,1,8.3,S,"KWG, SM"
+2024,7/22/2024,St Croix,Southgate,A,1,8.4,S,AND
+2024,7/22/2024,St Croix,Southgate,A,1,10,S,AND
+2024,7/22/2024,St Croix,Southgate,B,1,10.5,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,1,9.1,R,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,1,9.2,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,1,9,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,1,8.3,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,1,8.6,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,2,8.2,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,2,8.1,I,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,2,8,R,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,2,10.3,I,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,2,7.5,R,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,8.3,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,8,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,8.5,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,8.6,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,10.4,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,10.4,S,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,B,3,11.9,I,"DG, KWG"
+2024,7/22/2024,St Croix,Southgate,C,1,7.6,I,"DG,KWG"
+2024,7/22/2024,St Croix,Southgate,C,3,18.1,I,"DG,KWG"
+2024,7/8/2024,St Thomas,STEER Basin,B,1,8.9,I,SM/DG
+2024,7/8/2024,St Thomas,STEER Basin,B,2,9.6,S,SM/DG
+2024,7/8/2024,St Thomas,STEER Basin,B,2,10.8,I,SM/DG
+2024,6/18/2024,St Thomas,STEER Basin,C,1,9.8,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,1,10.5,I,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,1,9.1,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,1,9.2,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,2,7.5,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,2,12.2,I,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,2,10.3,I,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,3,8.3,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,3,11.6,R,AND
+2024,6/18/2024,St Thomas,STEER Basin,C,3,10.1,R,AND
+2024,7/5/2024,St Thomas,STEER Fringe,A,1,8.4,S,AND/DG
+2024,7/5/2024,St Thomas,STEER Fringe,A,2,8.6,I,AND/DG
+2024,7/5/2024,St Thomas,STEER Fringe,A,2,11.4,I,AND/DG
+2024,7/5/2024,St Thomas,STEER Fringe,A,2,7.6,I,AND/DG
+2024,7/5/2024,St Thomas,STEER Fringe,A,2,8.1,I,AND/DG
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,12.4,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,10,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,8.3,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,9.3,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,13.5,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,11,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,7.9,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,8.4,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,1,13.5,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,2,10.4,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,2,9,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,2,11.5,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,10.5,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,10.5,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,7.5,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,14.8,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,13,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,8.1,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,7.6,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,7.7,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,9.9,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,8.2,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,8.2,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,B,3,15,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,7.6,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,12.2,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,7.7,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,7.5,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,11.4,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,12.3,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,9.2,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,1,7.8,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,8.9,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,18.3,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,17.5,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,12.2,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,7.7,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,19.5,R,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,8.5,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,13.3,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,7.9,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,19,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,8.2,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,10.5,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,2,10.3,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,8.4,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,27.6,I,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,17.6,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,11.2,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,10.9,S,AND/KH
+2024,7/8/2024,St Thomas,STEER Fringe,C,3,17.4,S,AND/KH
+2024,8/7/2024,St John ,Turner Bay,A,2,8.3,I,"DG, AD"
+2024,8/7/2024,St John ,Turner Bay,B,2,7.5,I,AND
+2024,8/7/2024,St John ,Turner Bay,C,2,7.5,I,KH
+2024,8/7/2024,St John ,Turner Bay,C,2,10.5,R,KH
+2024,8/7/2024,St John ,Turner Bay,C,2,8.4,I,KH
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.4,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.3,R,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,10,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,7.8,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.4,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,10.5,R,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,11.4,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,10.9,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,7.5,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,10,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.3,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,17.5,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.7,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.1,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,7.8,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,11.1,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.1,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,11.3,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,8.5,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,11.2,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.8,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.2,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,11.5,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,12.1,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,10.5,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.9,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,7.5,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.6,R,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,2,9.7,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,17.1,I,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,7.7,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,10.8,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,8.8,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,7.8,R,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,A,3,11.9,S,"AD, KR"
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,9.4,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,15.1,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,9.7,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,8.5,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,7.5,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,7.5,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,17.7,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,7.6,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,10.1,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,10.6,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,1,18,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,13.9,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,13.3,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,9.6,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,4.7,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,8.5,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,7.8,R,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,11.9,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,8.6,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,10.2,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,7.6,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,2,9.4,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,8.6,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,8.5,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,14.2,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,13.8,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,10.9,S,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,7.6,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,8.8,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,B,3,7.9,I,AD
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,10.9,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,9.3,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,9,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,8.7,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,10.8,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,8.8,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,1,8.6,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,7.5,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,11.6,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,8.6,I,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,7.7,R,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,9.5,I,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,2,8.3,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,9.9,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,9.8,I,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,11,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,8.5,S,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,9.3,I,SH
+2024,6/13/2024,St Thomas,Vessup Bay,C,3,9.9,S,SH
+2024,8/8/2024,St John ,Water Creek ,A,1,14.9,R,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,2,9.2,S,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,2,13.8,R,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,2,12.5,R,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,2,12.2,S,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,3,10.5,S,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,3,8.4,R,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,A,3,8.5,S,"SM, AND"
+2024,8/8/2024,St John ,Water Creek ,B,1,10.1,S,LU
+2024,8/8/2024,St John ,Water Creek ,B,1,12.3,S,LU
+2024,8/8/2024,St John ,Water Creek ,B,1,8,S,LU
+2024,8/8/2024,St John ,Water Creek ,B,1,16,S,LU
+2024,8/8/2024,St John ,Water Creek ,B,2,9.8,I,LU
+2024,8/8/2024,St John ,Water Creek ,B,3,16.5,I,LU
+2024,8/8/2024,St John ,Water Creek ,B,3,8.2,S,LU
+2024,8/8/2024,St John ,Water Creek ,B,3,12.7,S,LU
+2024,8/8/2024,St John ,Water Creek ,C,1,9.4,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,9.3,I,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,9.2,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,7.7,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,10.7,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,25.3,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,8.9,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,10.2,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,2,10.5,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,7.8,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,8.1,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,18.8,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,17.6,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,8.9,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,11.6,S,"AND, JC"
+2024,8/8/2024,St John ,Water Creek ,C,3,8.9,S,"AND, JC"

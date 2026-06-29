@@ -427,7 +427,7 @@ seedling_density <- function(regen, densio, breaks = NULL) {
                             ((max(c$mean_site, na.rm = TRUE) + max(c$count_SE, na.rm = T)) - min(c$mean_site, na.rm = TRUE)) *
                             (max(c$height_site, na.rm = TRUE) - min(c$height_site, na.rm = TRUE)) + 
                             min(c$height_site, na.rm = TRUE),
-                            name = "Mean seedling height(cm)") 
+                            name = "Mean height of tallest seedling (cm)") 
     ) + {
       # if breaks parameter is not null add this to ggplot
       if (!is.null(breaks)) scale_y_break(c(breaks, breaks + 1), space = .025, scales = "free")
@@ -635,7 +635,7 @@ sapling_rel_abundance_table <- function(regen, sapling, species, densio) {
       empty = md('&emsp;&emsp;&emsp;'),
       SY = "",
       RHMA = md("*R. mangle*"),
-      AVGE = md("*A. germinians*"),
+      AVGE = md("*A. germinans*"),
       LARA = md("*L. racemosa*")
     ) %>% 
     cols_align(align = "center", everything()) %>%

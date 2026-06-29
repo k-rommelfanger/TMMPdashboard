@@ -2,6 +2,8 @@
 title: "Test"
 output: html_document
 date: "2026-06-15"
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
@@ -46,6 +48,222 @@ date: "2026-06-15"
     facet_wrap(~SY)
 
 
+
+```
+
+
+Woody Debris Figure
+
+Krauss, K. W., Doyle, T. W., Twilley, R. R., Smith III, T. J., Whelan, K. R., & Sullivan, J. K. (2005). Woody debris in the mangrove forests of South Florida 1. Biotropica: the Journal of Biology and Conservation, 37(1), 9-15.
+
+ALLEN, J. A., K. C. EWEL,B.D.KEELAND,T.TARA, AND T. J. SMITH III. 2000.
+Downed wood in Micronesian mangrove forests. Wetlands 20: 169–176.
+
+
+v=pie2 x sum d2/8L
+Mass was calculated using conversions of 0.5 tons m3 for
+wood 7.5cm and 0.5,0.35, and 0.20 tons m3 for
+larger wood in the sound, intermediate, and rotten categories, respectively.
+
+
+Our methods
+
+<1cm (2-4m)
+  assume diameter 0.5
+1-7.5cm (2-6m)
+  assume diameter 4.25cm
+greater than 7.5 (20m or transect length upon meeting upland veg)
+  have diameter for each one
+
+
+1. Look at counts of fine, intermediate and coarse across sites (Plotting first all plots, then average across sites)
+
+```{r}
+library(readr)
+library(plotrix)
+library(tidyverse)
+library(ggforce)
+
+Coarse_wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Coarse woody debris.csv")
+
+Wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Wood debris.csv")
+
+
+#QA/QC Cleaning 
+
+Coarsecheck<-Coarse_wood%>%
+  filter(Decay_class=="T")
+#> unique(Coarse_wood$Decay_class)
+#[1] "I"    "S"    "R"    "T"    "R, T" "I, T" "I, R"
+
+#in the cases where there are two classes listed, selecting the first class, filtering out the single instance of T only 
+Coarse_wood<-Coarse_wood%>%
+  filter(Decay_class!="T")%>%
+  mutate(Decay_class=recode(Decay_class,
+                            "R, T"="R",
+                            "I, T"="I",
+                            "I, R"="I"))
+
+unique(Coarse_wood$Decay_class)
+#looks good now! 
+
+#do I have all the data, if there is no coarse woody debris found in that year then no data entered for that plot, need to look at fine to see if data is missing or just no debris, then need zeros in the data for averages 
+
+#will need to use actual transect length for these calculations, think I need to pull that from fine wood.. 
+
+#stacked bar-plot
+Cwoodcount<-Coarse_wood%>%
+  group_by(SY,Site,Plot,Decay_class)%>%
+  summarise(N=n())%>%
+  mutate(Site_Plot = paste(Site, Plot, sep = " "))%>%
+  ggplot(aes(x=Site_Plot, y=N, fill=Decay_class))+
+    geom_col(position="stack")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)
+  
+  Cwoodcount
+  
+#boxplot/sinaplot total counts dot for each plot?
+  
+  Cwoodcount<-Coarse_wood%>%
+  group_by(SY,Site,Plot)%>%
+  summarise(N=n())%>%
+  ggplot(aes(x=Site, y=N))+
+    geom_point()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)+
+    ggtitle("Total Count of Coarse Woody Debris")
+  
+  Cwoodcount
+  
+
+#change dbh from cm to meters
+Coarse_wood<-Coarse_wood%>%
+  mutate(DBH_m=DBH_cm/100)
+
+#calculate coarse woody debris volume/unit area separately for each debris degradation class 
+totaldebris<-Coarse_wood%>%
+  group_by(SY, Site, Plot, Transect_num, Decay_class)%>%
+  summarise(sumd2=sum(DBH_m^2, na.rm=TRUE), .groups="drop")%>%
+  pivot_wider(names_from = Decay_class , values_from = sumd2)
+  
+#merge on transect lengths from fine woody debris
+Woodmerge<-Wood%>%
+  select(SY,Site,Plot,Transect_num,Transect_m, Wood_fine_num, Wood_med_num)
+
+#now i have total diameter of debris for each transect, even if that coarse debris count is zero  
+CoarseMerge<-Woodmerge%>%
+  left_join(totaldebris, by = c("SY", "Site","Plot", "Transect_num"))
+
+CoarseMerge[is.na(CoarseMerge)] <- 0
+
+#now mutate to get volume for each decay class (units=m3 woody debris/m2), then I multiply by conversion factors to determine mass for decay class) 
+CoarseMergeVolume<-CoarseMerge%>%
+  mutate(IVol=(pi^2 *I/ (8 * Transect_m)), #m3/m2
+         SVol=(pi^2*S/ (8 * Transect_m)), #m3/m2
+         RVol=(pi^2*R/(8*Transect_m)),     #m3/m2
+               IVol_ha=IVol*10000, #m3/ha  Volume-m3/ha
+               SVol_ha=SVol*10000, #m3/ha
+               RVol_ha=RVol*10000, #m3/ha
+               BMI=IVol_ha*0.35, #t/ha
+               BMS=SVol_ha*0.5,  #t/ha
+               BMR=RVol_ha*0.2,  #t/ha
+         CoarseMass=BMI+BMS+BMR, #total t/ha
+         CoarseVol=IVol_ha+SVol_ha+RVol_ha) #total m3/ha
+
+#point plot total mass of woody debris across sites
+MassPlot<-CoarseMergeVolume%>%
+  ggplot(aes(x=Site, y=CoarseMass, color=Plot))+
+  geom_jitter(width=0.2)+
+  facet_wrap(~SY, ncol=1)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ggtitle("Mass of Woody Debris")+
+  ylab("Coarse Woody Debris (tonnes/ha)")
+
+MassPlot
+
+#calculate mass of fine and medium debris
+    #<1cm (2-4m) assume diameter 0.5
+    #1-7.5cm (2-6m) assume diameter 4.25cm
+
+#need to determine the number of meters sampled, want to calculate when whole transect isnt sampled 
+SmallMedCoarseVolume<-CoarseMergeVolume%>%
+  mutate(Fine_m=if_else(Transect_m<4, Transect_m-2, 2))%>% #fine debris 2-4m
+  mutate(Med_m=if_else(Transect_m<6, Transect_m-2,4))%>% #medium debris 2-6m
+  mutate(FVol=(pi^2*((0.005^2)*Wood_fine_num)/ (8 * Fine_m))*10000, #m2/ha
+         MVol=(pi^2*((0.0425^2)*Wood_med_num)/(8*Med_m))*10000, #m2/ha
+         FMass=FVol*0.5,#t/ha
+         MMass=MVol*0.5, #t/ha
+         TotalMass=FMass+MMass+CoarseMass,#t/ha
+         TotalVolume=FVol+MVol+CoarseVol)#m2/ha
+  
+
+
+#Total Woody Debris Mass
+SmallMedCoarseVolume$SY<-as.factor(SmallMedCoarseVolume$SY)
+
+TotalMassPlot<-SmallMedCoarseVolume%>%
+  ggplot(aes(x=Site, y=TotalMass,fill=SY))+
+ geom_boxplot()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ggtitle("Mass of Woody Debris")+
+  ylab("Woody Debris (tonnes/ha)")
+TotalMassPlot
+
+#Total Woody Debris Volume
+SmallMedCoarseVolume$SY<-as.factor(SmallMedCoarseVolume$SY)
+
+TotalVolumePlot<-SmallMedCoarseVolume%>%
+  ggplot(aes(x=Site, y=TotalVolume,fill=SY))+
+ geom_boxplot()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ggtitle("Volume of Woody Debris")+
+  ylab("Woody Debris (m3/ha)")
+TotalVolumePlot
+  
+#mean and SEM plot
+MeanVolPlot<-SmallMedCoarseVolume%>%
+  mutate(SmallVol=FVol+MVol)%>%
+  group_by(SY, Site)%>%
+  summarise(MeanCoarse=mean(CoarseVol), MeanFine=-mean(SmallVol), SEMCoarse=std.error(CoarseVol), SEMFine=std.error(SmallVol),.groups = "drop")%>%
+  pivot_longer(
+    cols = c(MeanCoarse, MeanFine, SEMCoarse, SEMFine),
+    names_to = c(".value", "type"),
+    names_pattern = "(Mean|SEM)(Coarse|Fine)"
+  )%>%
+  ggplot(aes(x=Site, y=Mean, fill=type))+
+  geom_col(stat="identity")+
+    geom_errorbar(aes(
+    ymin = Mean - SEM,
+    ymax = Mean + SEM), 
+    width=0.2, 
+    position = position_identity()
+  ) +
+  geom_hline(yintercept = 0)+
+  facet_wrap(~SY, ncol=1)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+MeanVolPlot
+
+
+#this calculates the average and SEM of fine, medium, and coarse woody debris
+#want to talk through how to translate the woody debris counts
+FineMed<-Wood%>%
+  group_by(Island, Site, SY)%>%
+  summarise(meanFine=mean(Wood_fine_num), SEMFine=std.error(Wood_fine_num), meanMedium=mean(Wood_med_num),SEMMedium=std.error(Wood_med_num),meanCourse=mean(Wood_coarse_num),SEMCourse=std.error(Wood_coarse_num),sumSurveyed=sum(Transect_m))
+
+#Fringe B transect 3 outlier
+
+
+```
+
+
+Plot Average Coarse Woody Debris 
+
+
+Need to calculate total stand volume for each plot 
+
+```{r}
 
 ```
 

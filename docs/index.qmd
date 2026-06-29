@@ -352,7 +352,7 @@ sapling_density(regen =  regen_data, sapling = sapling_data, species = "RHMA", d
 ```
 
 ```{r}
-#| title: A. germinians Density
+#| title: A. germinans Density
 #| cache: true
 sapling_density(regen =  regen_data, sapling = sapling_data, species = "AVGE", densio = densiometer_data)
 ```

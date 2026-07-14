@@ -6,8 +6,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+This is testing a fix that I made for the tree measurements plots.
 ```{r}
-
   
   a <- tree_measurements %>% filter(Site == "Brewers Bay" & DBH_cm >= 0 & Mortality != "NA") %>%  
     mutate(Mortality = if_else(Mortality == "Dying", "Alive", Mortality)) %>% 
@@ -93,7 +93,8 @@ Wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Wood debris.csv")
 
 Coarsecheck<-Coarse_wood%>%
   filter(Decay_class=="T")
-#> unique(Coarse_wood$Decay_class)
+ 
+unique(Coarse_wood$Decay_class)
 #[1] "I"    "S"    "R"    "T"    "R, T" "I, T" "I, R"
 
 #in the cases where there are two classes listed, selecting the first class, filtering out the single instance of T only 
@@ -107,7 +108,14 @@ Coarse_wood<-Coarse_wood%>%
 unique(Coarse_wood$Decay_class)
 #looks good now! 
 
-#do I have all the data, if there is no coarse woody debris found in that year then no data entered for that plot, need to look at fine to see if data is missing or just no debris, then need zeros in the data for averages 
+unique(Coarse_wood$SY)
+unique(Coarse_wood$Island)
+unique(Coarse_wood$Site)
+unique(Coarse_wood$Plot)
+unique(Coarse_wood$Transect_num)
+
+
+#Will not have coarse debris data for every plot because if there is no coarse debris found then dbh is not entered
 
 #will need to use actual transect length for these calculations, think I need to pull that from fine wood.. 
 
@@ -119,11 +127,12 @@ Cwoodcount<-Coarse_wood%>%
   ggplot(aes(x=Site_Plot, y=N, fill=Decay_class))+
     geom_col(position="stack")+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  facet_wrap(~SY, ncol=1)
+  facet_wrap(~SY, ncol=1)+
+  ggtitle("Count of Coarse Debris Encountered")
   
   Cwoodcount
   
-#boxplot/sinaplot total counts dot for each plot?
+#point plot showing total counts dot for each plot (ABC)
   
   Cwoodcount<-Coarse_wood%>%
   group_by(SY,Site,Plot)%>%
@@ -142,14 +151,15 @@ Coarse_wood<-Coarse_wood%>%
   mutate(DBH_m=DBH_cm/100)
 
 #calculate coarse woody debris volume/unit area separately for each debris degradation class 
+#this is using the formula from the paper
 totaldebris<-Coarse_wood%>%
   group_by(SY, Site, Plot, Transect_num, Decay_class)%>%
-  summarise(sumd2=sum(DBH_m^2, na.rm=TRUE), .groups="drop")%>%
+  summarise(sumd2=sum(DBH_m^2, na.rm=TRUE), .groups="drop")%>% #adding the squared DBH for each site plot combo
   pivot_wider(names_from = Decay_class , values_from = sumd2)
   
-#merge on transect lengths from fine woody debris
+#merging coarse woody debris information with other, sele
 Woodmerge<-Wood%>%
-  select(SY,Site,Plot,Transect_num,Transect_m, Wood_fine_num, Wood_med_num)
+  select(SY,Island,Site,Plot,Transect_num,Transect_m, Wood_fine_num, Wood_med_num)
 
 #now i have total diameter of debris for each transect, even if that coarse debris count is zero  
 CoarseMerge<-Woodmerge%>%
@@ -171,6 +181,29 @@ CoarseMergeVolume<-CoarseMerge%>%
          CoarseMass=BMI+BMS+BMR, #total t/ha
          CoarseVol=IVol_ha+SVol_ha+RVol_ha) #total m3/ha
 
+
+#plotting total count of fine across sites
+CoarseMergeVolume$SY<-as.factor(CoarseMergeVolume$SY)
+
+FineCountPlot<-CoarseMergeVolume%>%
+  ggplot(aes(x=Site, y=Wood_fine_num, fill =SY))+
+  geom_boxplot()+ 
+    geom_point(size=1, position=position_dodge(width=0.75))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ggtitle("Count of Fine Woody Debris")
+
+FineCountPlot
+
+#same deal for medium
+MedCountPlot<-CoarseMergeVolume%>%
+  ggplot(aes(x=Site, y=Wood_med_num, fill =SY))+
+  geom_boxplot()+ 
+    geom_point(size=1, position=position_dodge(width=0.75))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ggtitle("Count of Medium Woody Debris")
+
+MedCountPlot
+
 #point plot total mass of woody debris across sites
 MassPlot<-CoarseMergeVolume%>%
   ggplot(aes(x=Site, y=CoarseMass, color=Plot))+
@@ -183,12 +216,12 @@ MassPlot<-CoarseMergeVolume%>%
 MassPlot
 
 #calculate mass of fine and medium debris
-    #<1cm (2-4m) assume diameter 0.5
-    #1-7.5cm (2-6m) assume diameter 4.25cm
+    #<1cm (2-4m) assume diameter 0.005m (0.5cm)
+    #1-7.5cm (2-6m) assume diameter 0.0425 (4.25cm)
 
-#need to determine the number of meters sampled, want to calculate when whole transect isnt sampled 
+#need to determine the number of meters sampled,if transect lenghts less than 4 meters for fine and 6 meters for coarse then subtract two from them, otherwise use 2m for fine and 4m for coarse
 SmallMedCoarseVolume<-CoarseMergeVolume%>%
-  mutate(Fine_m=if_else(Transect_m<4, Transect_m-2, 2))%>% #fine debris 2-4m
+  mutate(Fine_m=if_else(Transect_m<4, Transect_m-2, 2))%>% #fine debris 2-4m (if shorter than 4 want true length, else 2m)
   mutate(Med_m=if_else(Transect_m<6, Transect_m-2,4))%>% #medium debris 2-6m
   mutate(FVol=(pi^2*((0.005^2)*Wood_fine_num)/ (8 * Fine_m))*10000, #m2/ha
          MVol=(pi^2*((0.0425^2)*Wood_med_num)/(8*Med_m))*10000, #m2/ha
@@ -205,6 +238,7 @@ SmallMedCoarseVolume$SY<-as.factor(SmallMedCoarseVolume$SY)
 TotalMassPlot<-SmallMedCoarseVolume%>%
   ggplot(aes(x=Site, y=TotalMass,fill=SY))+
  geom_boxplot()+
+  geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   ggtitle("Mass of Woody Debris")+
   ylab("Woody Debris (tonnes/ha)")
@@ -216,6 +250,7 @@ SmallMedCoarseVolume$SY<-as.factor(SmallMedCoarseVolume$SY)
 TotalVolumePlot<-SmallMedCoarseVolume%>%
   ggplot(aes(x=Site, y=TotalVolume,fill=SY))+
  geom_boxplot()+
+   geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   ggtitle("Volume of Woody Debris")+
   ylab("Woody Debris (m3/ha)")
@@ -246,24 +281,99 @@ MeanVolPlot<-SmallMedCoarseVolume%>%
 MeanVolPlot
 
 
-#this calculates the average and SEM of fine, medium, and coarse woody debris
-#want to talk through how to translate the woody debris counts
-FineMed<-Wood%>%
-  group_by(Island, Site, SY)%>%
-  summarise(meanFine=mean(Wood_fine_num), SEMFine=std.error(Wood_fine_num), meanMedium=mean(Wood_med_num),SEMMedium=std.error(Wood_med_num),meanCourse=mean(Wood_coarse_num),SEMCourse=std.error(Wood_coarse_num),sumSurveyed=sum(Transect_m))
+#plot with coarse volume and fine and medium counts
+#want to do with stacked bars, can do this per transect, but not sure how to look at data with means per site 
 
-#Fringe B transect 3 outlier
+VolumePosCountNeg<-SmallMedCoarseVolume%>%
+  mutate(PlotWoodFine=-1*Wood_fine_num,
+         PlotWoodMedium=-1*Wood_med_num)%>%
+  select(SY,Island, Site,Plot,Transect_num,PlotWoodFine, PlotWoodMedium, IVol_ha,SVol_ha,RVol_ha)%>%
+  pivot_longer(cols=c(PlotWoodFine,PlotWoodMedium, IVol_ha, SVol_ha, RVol_ha), names_to = "Category", values_to = "Total")%>%
+  filter(Site=="Brewers Bay")%>%
+  ggplot(aes(x=Transect_num,y=Total, fill=Category))+
+           geom_col(position="stack")
+
+VolumePosCountNeg
+#I dont like this plot path situation thing happening here, taking a pause on this situation 
+
+```
+
+Want to cleanly pull all the info that I mathed out of the woody debris info for each site so I can plot it.Maybe mean for each site?? Will rename columns including units in column names for ease later
+
+Coarse S Volume, Mass 
+Coarse I Volume, Mass 
+Coarse R Volume, Mass
+Total Coarse Count, Mass, and Volume
+Fine Mass, Volume
+Medium Mass, Volume
+```{r}
+
+WoodyDebrisSummaryMeanSEM<-SmallMedCoarseVolume%>%
+  select(SY,Island,Site,Plot,Transect_num,Transect_m,Wood_fine_num,Wood_med_num, SVol_ha,BMS,IVol_ha,BMI, RVol_ha, BMR, CoarseMass, CoarseVol, FVol, MVol, FMass, MMass,TotalMass, TotalVolume)%>%
+  group_by(SY, Island, Site)%>%
+  summarise(FineCount_n=mean(Wood_fine_num),
+            SEMFineCount=std.error(Wood_fine_num),
+            MedCount_n=mean(Wood_med_num),
+            SemMedCount=std.error(Wood_med_num),
+            FineVol_m2ha=mean(FVol),
+            SEMFineVol=std.error(FVol),
+            MedVol_m2ha=mean(MVol),
+            SEMMedVol=std.error(MVol),
+            FineMass_tha=mean(FMass),
+            SEMFineMass=std.error(FMass),
+            MedMass_tha=mean(MMass),
+            SEMMedMass=std.error(MMass),
+            SoundVol_m2ha=mean(SVol_ha),
+            SEMSoundVol=std.error(SVol_ha),
+            SoundMass_tha=mean(BMS),
+            SEMSoundMass=std.error(BMS),
+            InterVol_m2ha=mean(IVol_ha),
+            SEMIVol=std.error(IVol_ha),
+            InterMass_tha=mean(BMI),
+            SEMIMass=std.error(BMI),
+            RotVol_m2ha=mean(RVol_ha),
+            SEMRVol=std.error(RVol_ha),
+            RotMass_tha=mean(BMR),
+            SEMRMass=std.error(BMR),
+            CoarseMass_tha=mean(CoarseMass),
+            SEMCoarseMass=std.error(CoarseMass),
+            CoarseVol_m2ha=mean(CoarseVol),
+            SEMCoarseVol=std.error(CoarseVol),
+            TotalMass_tha=mean(TotalMass),
+            SEMTotalMass_tha=std.error(TotalMass),
+            TotalVolume_m2ha=mean(TotalVolume),
+            SEMTotalVolume=std.error(TotalVolume)
+            )
 
 
 ```
 
 
-Plot Average Coarse Woody Debris 
 
 
-Need to calculate total stand volume for each plot 
-
+Need to calculate total basal area for each plot
 ```{r}
+library(readr)
+library(tidyverse)
+
+radial<- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Tree measurements.csv")
+#plan is to first convert DBH's to basal areas, need it to be in m2/ha
+
+#cm->m divide by 100
+#dbh/2 to get radius, then pi*radius^2
+#then sum total for plot
+#divide by plot area 5.65m radius (pi * 5.62^2), not sure if I want to do this before or after I combine at the site level. prolly before cuz all my woody debris is at the plot level 
+
+#then I'll need to combine this info with the woody debris info to make the plot that I want
+
+
+
+```
+
+I think Ideally the summarized data should be combined into a single data frame, so different metrics can be plotted against each other
+```{r}
+
+
 
 ```
 

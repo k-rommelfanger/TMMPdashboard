@@ -1,0 +1,1063 @@
+SY,Date,Site,Plot,Quadrat,Species,Height_cm,Height_m,DBH_cm,Mortality,Notes
+2022,9/20/2021,Brewers Bay,A,West,LARA,,,0.95,alive,height not recorded
+2022,9/20/2021,Brewers Bay,A,West,LARA,,,0.9,alive,height not recorded
+2022,9/21/2021,Brewers Bay,C,East,RHMA,129,1.290,0.747,alive,
+2022,9/21/2021,Brewers Bay,C,East,RHMA,174,1.740,0.555,alive,
+2022,9/21/2021,Brewers Bay,C,East,RHMA,114,1.140,0.719,alive,
+2022,9/21/2021,Brewers Bay,C,East,RHMA,108.5,1.085,0.589,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,53,0.530,0.472,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,59.4,0.594,0.492,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,61,0.610,0.499,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,58.5,0.585,0.523,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,58.4,0.584,0.423,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,63.2,0.632,0.654,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,62.2,0.622,0.507,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,79.3,0.793,0.429,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,55.8,0.558,0.506,alive,
+2022,9/21/2021,Brewers Bay,C,North,RHMA,53.9,0.539,0.452,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,73.9,0.739,0.595,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,77.9,0.779,0.559,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,74.8,0.748,0.572,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,233,2.330,0.803,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,81.1,0.811,0.649,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,74.9,0.749,0.57,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,139,1.390,1.1,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,75.5,0.755,0.675,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,78.6,0.786,0.555,alive,
+2022,9/21/2021,Brewers Bay,C,South,RHMA,62.5,0.625,0.559,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,65,0.650,0.443,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,70.8,0.708,0.511,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,84.5,0.845,0.738,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,54.3,0.543,0.462,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,61,0.610,0.433,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,67.8,0.678,0.419,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,67.4,0.674,0.567,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,69.5,0.695,0.561,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,72.5,0.725,0.542,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,91.4,0.914,0.604,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,102.3,1.023,0.719,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,83.9,0.839,0.536,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,59.7,0.597,0.436,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,70.8,0.708,0.546,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,66.1,0.661,0.529,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,67.4,0.674,0.637,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,67.5,0.675,0.568,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,77,0.770,0.519,alive,
+2022,9/21/2021,Brewers Bay,C,West,RHMA,66.5,0.665,0.504,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,74.6,0.746,1.066,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,52.1,0.521,0.869,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,74.8,0.748,1.218,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,68.9,0.689,0.778,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,67.7,0.677,1.162,alive,
+2022,10/14/2021,Compass Point,A,East,RHMA,81.6,0.816,1.095,alive,
+2022,10/14/2021,Compass Point,A,North,RHMA,300,3.000,1.491,alive,
+2022,10/14/2021,Compass Point,A,North,RHMA,181,1.810,0.405,alive,
+2022,10/14/2021,Compass Point,A,North,RHMA,203.1,2.031,0.8,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,62.1,0.621,0.84,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,135.8,1.358,1.05,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,175.2,1.752,1.197,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,107.3,1.073,0.671,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,84.3,0.843,0.815,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,94.3,0.943,0.693,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,120.5,1.205,1.348,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,54.5,0.545,0.97,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,84,0.840,1.969,alive,
+2022,10/14/2021,Compass Point,A,South,RHMA,57.4,0.574,1.214,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,91.4,0.914,1.343,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,110.9,1.109,1.262,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,123.9,1.239,0.889,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,88.1,0.881,1.056,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,59.4,0.594,1.21,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,59.5,0.595,1.214,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,79.9,0.799,1.29,alive,
+2022,10/14/2021,Compass Point,A,West,RHMA,75.4,0.754,1.064,alive,
+2022,10/14/2021,Compass Point,B,East,RHMA,102.5,1.025,1.4,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,78.8,0.788,1.3,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,128,1.280,1.4,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,79,0.790,1.5,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,108,1.080,1.28,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,156.9,1.569,0.5,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,51.9,0.519,0.9,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,74.2,0.742,0.9,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,83.6,0.836,1.2,alive,
+2022,10/14/2021,Compass Point,B,South,RHMA,130.5,1.305,1,alive,
+2022,10/14/2021,Compass Point,C,East,AVGE,155,1.550,0.4,alive,TRUE
+2022,10/14/2021,Compass Point,C,East,AVGE,67,0.670,2.1,alive,
+2022,10/14/2021,Compass Point,C,East,AVGE,150,1.500,0.3,alive,true DBH
+2022,10/14/2021,Compass Point,C,East,AVGE,183,1.830,0.7,alive,true DBH
+2022,10/14/2021,Compass Point,C,East,AVGE,78,0.780,1.1,alive,
+2022,10/14/2021,Compass Point,C,East,AVGE,85,0.850,1.2,alive,
+2022,10/14/2021,Compass Point,C,East,LARA,82,0.820,1.1,alive,
+2022,10/14/2021,Compass Point,C,East,LARA,99,0.990,1.3,alive,
+2022,10/14/2021,Compass Point,C,North,AVGE,79.5,0.795,0.1,alive,
+2022,10/14/2021,Compass Point,C,South,AVGE,125.2,1.252,2.3,alive,
+2022,10/14/2021,Compass Point,C,South,AVGE,142,1.420,0.3,alive,
+2022,10/28/2021,Francis Bay,C,East,LARA,225,2.250,2.4,dead,dead white
+2022,11/15/2021,Great Pond,A,East,AVGE,91.5,0.915,2.56,alive,Herbivory
+2022,11/15/2021,Great Pond,A,East,AVGE,73,0.730,1.16,alive,Herbivory
+2022,11/15/2021,Great Pond,A,East,AVGE,73.5,0.735,0.98,alive,Herbivory
+2022,11/15/2021,Great Pond,A,East,RHMA,69,0.690,1.69,alive,
+2022,11/15/2021,Great Pond,A,East,RHMA,74,0.740,1.95,alive,
+2022,11/15/2021,Great Pond,A,East,RHMA,52,0.520,1.55,alive,
+2022,11/15/2021,Great Pond,A,East,RHMA,129,1.290,1.98,alive,
+2022,11/15/2021,Great Pond,A,East,RHMA,61.4,0.614,1.65,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,53,0.530,1.55,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,87.1,0.871,1.87,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,94.5,0.945,1.8,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,149.4,1.494,0.77,alive,tree (true?) DBH: 0.77
+2022,11/15/2021,Great Pond,A,North,RHMA,193,1.930,1.01,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,95.5,0.955,1.22,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,155.5,1.555,0.46,alive,tree (true?) DBH: 0.46
+2022,11/15/2021,Great Pond,A,North,RHMA,112.4,1.124,1.32,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,182.5,1.825,1.18,alive,
+2022,11/15/2021,Great Pond,A,North,RHMA,154.4,1.544,1.73,alive,
+2022,11/17/2021,Krause Lagoon,A,East,RHMA,340,3.400,1.6,alive,
+2022,11/17/2021,Krause Lagoon,A,East,RHMA,290,2.900,1.6,alive,
+2022,11/17/2021,Krause Lagoon,A,East,RHMA,240,2.400,1.6,alive,
+2022,11/17/2021,Krause Lagoon,A,East,RHMA,263,2.630,1.1,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,285,2.850,1.6,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,300,3.000,1.8,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,300,3.000,2,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,295,2.950,1.6,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,235,2.350,0.9,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,204,2.040,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,North,RHMA,300,3.000,1.2,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,241,2.410,0.9,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,265,2.650,0.9,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,92,0.920,0.8,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,163,1.630,0.5,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,300,3.000,1.2,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,176,1.760,0.6,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,400,4.000,1.7,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,189,1.890,0.9,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,400,4.000,1.5,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,180,1.800,0.8,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,158,1.580,0.4,alive,
+2022,11/17/2021,Krause Lagoon,A,South,RHMA,102,1.020,1.8,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,201,2.010,1.4,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,225,2.250,0.9,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,94.3,0.943,1.1,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,185,1.850,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,213,2.130,0.8,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,177,1.770,0.6,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,205,2.050,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,262,2.620,1.1,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,200,2.000,0.6,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,196,1.960,0.8,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,205,2.050,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,205,2.050,0.6,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,202,2.020,0.5,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,206,2.060,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,220,2.200,0.7,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,247,2.470,1,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,195,1.950,0.5,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,221,2.210,0.8,alive,
+2022,11/17/2021,Krause Lagoon,A,West,RHMA,213,2.130,0.7,alive,
+2022,11/17/2021,Krause Lagoon,B,East,RHMA,75,0.750,1.2,alive,
+2022,11/17/2021,Krause Lagoon,B,East,RHMA,136,1.360,1.2,alive,
+2022,11/17/2021,Krause Lagoon,B,East,RHMA,66,0.660,2.1,alive,
+2022,11/17/2021,Krause Lagoon,B,East,RHMA,66,0.660,1.4,alive,
+2022,11/17/2021,Krause Lagoon,B,North,RHMA,63,0.630,1.4,alive,
+2022,11/17/2021,Krause Lagoon,B,South,RHMA,139,1.390,2.1,alive,
+2022,11/17/2021,Krause Lagoon,B,South,RHMA,265,2.650,1.1,alive,
+2022,11/17/2021,Krause Lagoon,B,South,RHMA,400,4.000,2,alive,
+2022,11/17/2021,Krause Lagoon,B,South,RHMA,145,1.450,0.9,alive,
+2022,10/26/2021,Lameshur Bay,C,South,AVGE,105,1.050,1.47,alive,heavy Herbivory
+2022,10/26/2021,Lameshur Bay,C,South,AVGE,97,0.970,1.32,alive,
+2022,10/26/2021,Lameshur Bay,C,West,AVGE,142,1.420,0.2,alive,Herbivory
+2022,10/26/2021,Lameshur Bay,C,West,AVGE,115,1.150,1.29,alive,
+2022,10/26/2021,Lameshur Bay,C,West,AVGE,85,0.850,0.95,alive,Herbivory
+2022,10/26/2021,Lameshur Bay,C,West,AVGE,76,0.760,0.66,alive,
+2022,10/26/2021,Lameshur Bay,C,West,AVGE,69,0.690,0.5,alive,
+2022,10/22/2021,Magens Bay,A,South,RHMA,90.8,0.908,2.1,alive,
+2022,10/22/2021,Magens Bay,A,South,RHMA,179.5,1.795,0.75,alive,
+2022,10/22/2021,Magens Bay,A,South,RHMA,136.4,1.364,2.3,alive,
+2022,10/22/2021,Magens Bay,A,South,RHMA,160.7,1.607,0.6,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,400,4.000,1.5,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,350,3.500,1.6,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,350,3.500,1.4,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,300,3.000,1.2,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,350,3.500,1.6,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,300,3.000,1.3,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,200,2.000,0.8,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,210,2.100,0.7,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,200,2.000,0.8,alive,
+2022,10/22/2021,Magens Bay,A,West,RHMA,130,1.300,1.4,alive,
+2022,10/22/2021,Magens Bay,B,East,RHMA,196.8,1.968,0.9,alive,
+2022,10/22/2021,Magens Bay,B,East,RHMA,160,1.600,0.6,alive,
+2022,10/22/2021,Magens Bay,B,North,RHMA,400,4.000,1.7,alive,measured visually
+2022,10/22/2021,Magens Bay,B,North,RHMA,365,3.650,1.6,alive,
+2022,10/22/2021,Magens Bay,B,North,RHMA,293,2.930,1.1,alive,75% branched dead
+2022,10/22/2021,Magens Bay,B,North,RHMA,227,2.270,1.1,alive,moslty dead
+2022,10/22/2021,Magens Bay,B,South,RHMA,246.5,2.465,1.1,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,375,3.750,2.4,alive,measured visually
+2022,10/22/2021,Magens Bay,B,South,RHMA,355,3.550,2.1,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,410,4.100,2.2,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,315,3.150,1.25,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,215,2.150,0.7,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,230,2.300,0.8,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,165,1.650,0.5,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,185,1.850,0.5,alive,
+2022,10/22/2021,Magens Bay,B,South,RHMA,180,1.800,1,alive,
+2022,11/30/2021,Magens Bay,C,East,RHMA,282,2.820,1.4,alive,
+2022,11/30/2021,Magens Bay,C,East,RHMA,178,1.780,1.2,alive,
+2022,11/30/2021,Magens Bay,C,East,RHMA,350,3.500,1.8,alive,
+2022,11/30/2021,Magens Bay,C,East,RHMA,197,1.970,0.8,alive,
+2022,11/30/2021,Magens Bay,C,East,RHMA,340,3.400,1.4,alive,
+2022,11/30/2021,Magens Bay,C,North,RHMA,297,2.970,2.3,alive,
+2022,11/30/2021,Magens Bay,C,North,RHMA,318,3.180,2.2,alive,
+2022,11/30/2021,Magens Bay,C,South,RHMA,156,1.560,0.8,alive,
+2022,11/30/2021,Magens Bay,C,South,RHMA,229,2.290,1.5,alive,
+2022,11/30/2021,Magens Bay,C,South,RHMA,135,1.350,1,alive,
+2022,11/30/2021,Magens Bay,C,South,RHMA,300,3.000,1.2,alive,
+2022,11/30/2021,Magens Bay,C,South,RHMA,172,1.720,0.5,alive,
+2022,11/30/2021,Magens Bay,C,West,RHMA,355,3.550,1.3,alive,
+2022,11/30/2021,Magens Bay,C,West,RHMA,395,3.950,1.6,alive,
+2022,11/30/2021,Magens Bay,C,West,RHMA,320,3.200,1.4,alive,
+2022,11/30/2021,Magens Bay,C,West,RHMA,305,3.050,1.3,alive,
+2022,10/1/2021,Mandahl Bay,A,East,LARA,255,2.550,1,alive,The green highlited section was converted from cm converted on data sheet
+2022,10/1/2021,Mandahl Bay,A,East,RHMA,103,1.030,1.9,alive,fattest point
+2022,10/1/2021,Mandahl Bay,B,East,LARA,199,1.990,0.5,alive,real DBH
+2022,10/1/2021,Mandahl Bay,B,North,LARA,185,1.850,1.5,alive,
+2022,10/1/2021,Mandahl Bay,B,North,LARA,125,1.250,1.3,alive,
+2022,10/1/2021,Mandahl Bay,B,North,RHMA,78.5,0.785,1,alive,fattest point
+2022,10/1/2021,Mandahl Bay,B,North,RHMA,66,0.660,1.6,alive,fattest point
+2022,10/1/2021,Mandahl Bay,B,West,LARA,206,2.060,0.8,alive,real DBH
+2022,10/1/2021,Mandahl Bay,B,West,LARA,196,1.960,1.2,alive,real DBH
+2022,10/1/2021,Mandahl Bay,B,West,LARA,56,0.560,1.1,alive,fattest point
+2022,10/1/2021,Mandahl Bay,B,West,LARA,104,1.040,2.3,alive,fattest point
+2022,10/1/2021,Mandahl Bay,C,East,LARA,160,1.600,1.4,alive,real DBH
+2022,10/1/2021,Mandahl Bay,C,East,LARA,160,1.600,1.2,alive,"has props, tree fall regen?"
+2022,9/23/2021,Perseverance Bay,C,South,RHMA,60,0.600,3,alive,
+2022,9/23/2021,Perseverance Bay,C,West,RHMA,71,0.710,5.1,alive,
+2022,9/23/2021,Perseverance Bay,C,West,RHMA,76.5,0.765,5.8,alive,
+2022,10/29/2021,Princess Bay,C,East,LARA,61,0.610,1.45,alive,has IP
+2022,10/29/2021,Princess Bay,C,East,LARA,96,0.960,1.85,alive,has MP
+2022,10/29/2021,Princess Bay,C,East,LARA,128,1.280,1.95,alive,has IP
+2022,10/29/2021,Princess Bay,C,East,LARA,123,1.230,1,alive,has IP / MP
+2022,10/29/2021,Princess Bay,C,East,LARA,99,0.990,0.55,alive,
+2022,10/29/2021,Princess Bay,C,East,LARA,79,0.790,0.54,alive,
+2022,10/29/2021,Princess Bay,C,East,LARA,154,1.540,0.32,alive,has IP / MP
+2022,10/29/2021,Princess Bay,C,East,LARA,212,2.120,0.96,alive,
+2022,10/29/2021,Princess Bay,C,East,LARA,190,1.900,0.56,alive,
+2022,10/29/2021,Princess Bay,C,East,LARA,174,1.740,0.55,alive,has IP
+2022,10/29/2021,Princess Bay,C,East,LARA,164,1.640,0.24,alive,has IP / MP
+2022,10/29/2021,Princess Bay,C,North,LARA,178,1.780,1.06,alive,flowering
+2022,10/29/2021,Princess Bay,C,North,LARA,97,0.970,2.3,alive,
+2022,10/29/2021,Princess Bay,C,North,LARA,199.6,1.996,2.56,alive,
+2022,10/29/2021,Princess Bay,C,South,RHMA,99.1,0.991,2.68,alive,Herbivory
+2022,10/29/2021,Princess Bay,C,South,RHMA,98.4,0.984,2.26,alive,Herbivory
+2022,10/29/2021,Princess Bay,C,West,RHMA,108.5,1.085,2.94,alive,some herb on leaves
+2022,12/3/2021,Reef Bay,A,East,LARA,406,4.060,1.65,alive,
+2022,12/3/2021,Reef Bay,A,South,LARA,158,1.580,0.4,alive,dead at top and bottom 
+2022,12/3/2021,Reef Bay,A,South,LARA,278,2.780,0.6,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,256,2.560,0.7,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,328,3.280,0.9,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,218,2.180,2.3,alive,
+2022,12/3/2021,Reef Bay,A,South,LARA,405,4.050,2.1,alive,
+2022,12/3/2021,Reef Bay,A,South,LARA,315,3.150,0.8,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,171,1.710,0.45,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,340,3.400,1.1,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,290,2.900,1.15,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,South,LARA,440,4.400,1.95,alive,"leggy, 2 of 3 branches wood"
+2022,12/3/2021,Reef Bay,A,South,LARA,318,3.180,2,alive,half of braches dead
+2022,12/3/2021,Reef Bay,A,South,LARA,325,3.250,1.5,alive,
+2022,12/3/2021,Reef Bay,A,South,LARA,113,1.130,1,alive,
+2022,12/3/2021,Reef Bay,A,West,LARA,345,3.450,2.14,alive,damaged but alive
+2022,12/3/2021,Reef Bay,A,West,LARA,365,3.650,1.55,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,West,LARA,460,4.600,2.35,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,West,LARA,206,2.060,1.52,alive,leggy branches
+2022,12/3/2021,Reef Bay,A,West,LARA,315,3.150,1.65,alive,leggy branches
+2022,12/3/2021,Reef Bay,B,East,LARA,135,1.350,0.14,alive,
+2022,12/3/2021,Reef Bay,B,East,LARA,150.3,1.503,0.11,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,139,1.390,3,alive,Herbivory
+2022,12/3/2021,Reef Bay,B,West,AVGE,131,1.310,1.75,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,121,1.210,2.4,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,175,1.750,1.8,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,156,1.560,0.8,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,148,1.480,1.2,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,156,1.560,0.6,alive,
+2022,12/3/2021,Reef Bay,B,West,AVGE,146,1.460,0.3,alive,
+2022,11/18/2021,Salt River,A,South,AVGE,77,0.770,0.75,alive,
+2022,11/18/2021,Salt River,A,South,AVGE,97,0.970,1,alive,
+2022,11/18/2021,Salt River,A,South,LARA,106,1.060,1.35,alive,
+2022,11/18/2021,Salt River,A,South,LARA,285,2.850,1.15,alive,
+2022,11/18/2021,Salt River,A,South,LARA,270,2.700,1.28,alive,
+2022,11/18/2021,Salt River,A,South,LARA,210,2.100,1.25,alive,
+2022,11/18/2021,Salt River,A,South,LARA,215,2.150,1.15,alive,
+2022,11/18/2021,Salt River,A,South,LARA,186,1.860,0.65,alive,
+2022,11/18/2021,Salt River,A,South,LARA,54,0.540,0.55,alive,
+2022,11/18/2021,Salt River,A,South,LARA,54,0.540,1.62,alive,
+2022,11/18/2021,Salt River,A,South,LARA,74,0.740,0.76,alive,
+2022,11/18/2021,Salt River,A,South,LARA,74.5,0.745,1.25,alive,
+2022,11/18/2021,Salt River,A,South,LARA,205,2.050,1.3,alive,
+2022,11/18/2021,Salt River,A,South,LARA,305,3.050,2.24,alive,
+2022,11/18/2021,Salt River,A,South,LARA,112,1.120,0.88,alive,
+2022,11/18/2021,Salt River,A,South,LARA,188,1.880,0.51,alive,
+2022,11/18/2021,Salt River,A,South,LARA,103,1.030,0.52,alive,
+2022,11/18/2021,Salt River,A,South,LARA,88,0.880,0.37,alive,
+2022,11/18/2021,Salt River,A,South,LARA,97,0.970,0.4,alive,
+2022,11/18/2021,Salt River,A,South,LARA,108,1.080,0.54,alive,
+2022,11/18/2021,Salt River,A,South,LARA,800,8.000,0.65,alive,
+2022,11/18/2021,Salt River,A,South,LARA,820,8.200,0.79,alive,
+2022,11/18/2021,Salt River,A,South,LARA,101,1.010,0.59,alive,
+2022,11/18/2021,Salt River,A,South,LARA,172,1.720,0.83,alive,
+2022,11/18/2021,Salt River,A,South,LARA,70,0.700,0.62,alive,
+2022,11/18/2021,Salt River,A,South,LARA,198,1.980,1.15,alive,
+2022,11/18/2021,Salt River,A,South,LARA,65,0.650,0.61,alive,
+2022,11/18/2021,Salt River,A,South,LARA,105,1.050,1.58,alive,
+2022,11/18/2021,Salt River,A,South,LARA,128,1.280,1.2,alive,
+2022,11/18/2021,Salt River,A,South,LARA,150,1.500,1.2,alive,
+2022,11/18/2021,Salt River,A,South,LARA,216,2.160,1.25,alive,
+2022,11/18/2021,Salt River,A,South,LARA,318,3.180,2.15,alive,
+2022,11/18/2021,Salt River,A,South,LARA,158,1.580,0.88,alive,
+2022,11/18/2021,Salt River,A,South,LARA,195,1.950,0.55,alive,
+2022,11/18/2021,Salt River,A,South,LARA,123,1.230,0.7,alive,
+2022,11/18/2021,Salt River,A,South,LARA,129,1.290,0.59,alive,
+2022,11/18/2021,Salt River,A,South,LARA,136,1.360,1.31,alive,
+2022,11/18/2021,Salt River,A,South,LARA,107,1.070,0.58,alive,
+2022,11/18/2021,Salt River,A,South,LARA,155,1.550,0.62,alive,
+2022,11/18/2021,Salt River,A,South,RHMA,51.5,0.515,0.7,alive,
+2022,11/18/2021,Salt River,C,North,RHMA,51,0.510,1.1,alive,
+2022,11/18/2021,Salt River,C,North,RHMA,55,0.550,1.2,alive,
+2022,11/18/2021,Salt River,C,South,RHMA,185,1.850,1.1,alive,
+2022,11/18/2021,Salt River,C,South,RHMA,300,3.000,1.8,alive,
+2022,11/16/2021,Southgate,A,North,AVGE,55.5,0.555,0.71,alive,herbiory (insect)
+2022,11/16/2021,Southgate,B,North,LARA,112,1.120,0.71,alive,herbiory (insect)
+2022,11/16/2021,Southgate,B,North,LARA,235,2.350,1.15,alive,mostly dead
+2022,11/16/2021,Southgate,B,North,LARA,164,1.640,0.46,alive,alive but lost most leaves
+2022,11/16/2021,Southgate,B,North,LARA,127,1.270,2.15,alive,alive @ base but dead higher up
+2022,11/16/2021,Southgate,C,East,LARA,108,1.080,1.4,alive,
+2022,11/16/2021,Southgate,C,East,LARA,80,0.800,0.9,alive,
+2022,11/16/2021,Southgate,C,South,LARA,75,0.750,0.8,alive,
+2022,11/16/2021,Southgate,C,South,LARA,92.5,0.925,1.2,alive,
+2022,11/16/2021,Southgate,C,South,LARA,108,1.080,1,alive,
+2022,11/16/2021,Southgate,C,South,LARA,71,0.710,0.7,alive,
+2022,11/16/2021,Southgate,C,South,LARA,240,2.400,1.1,alive,
+2022,11/16/2021,Southgate,C,South,LARA,330,3.300,1.9,alive,
+2022,11/16/2021,Southgate,C,South,LARA,254,2.540,1.4,alive,
+2022,11/16/2021,Southgate,C,South,LARA,236,2.360,1,alive,
+2022,11/16/2021,Southgate,C,South,LARA,223.5,2.235,0.9,alive,
+2022,11/16/2021,Southgate,C,South,LARA,254,2.540,1.2,alive,
+2022,11/16/2021,Southgate,C,South,LARA,155,1.550,1,alive,
+2022,11/16/2021,Southgate,C,South,LARA,84,0.840,1,alive,
+2022,11/16/2021,Southgate,C,South,LARA,121,1.210,0.8,alive,
+2022,11/16/2021,Southgate,C,South,LARA,161,1.610,0.5,alive,no leaves
+2022,11/16/2021,Southgate,C,West,LARA,185,1.850,2.2,alive,
+2022,11/16/2021,Southgate,C,West,LARA,279,2.790,2,alive,
+2022,11/16/2021,Southgate,C,West,LARA,168,1.680,1.5,alive,
+2022,11/16/2021,Southgate,C,West,LARA,211,2.110,0.9,alive,
+2022,2/22/2022,STEER Basin,B,South,LARA,142,1.420,1.2,alive,
+2022,2/22/2022,STEER Basin,B,South,LARA,149,1.490,1.16,alive,
+2022,2/22/2022,STEER Basin,B,South,LARA,133,1.330,1.95,alive,
+2022,2/22/2022,STEER Basin,B,South,AVGE,118,1.180,1.25,alive,
+2022,2/22/2022,STEER Basin,B,South,RHMA,118,1.180,1.35,alive,
+2022,2/22/2022,STEER Basin,C, East,RHMA,56.5,0.565,1.98,alive,has mealy bugs
+2022,2/22/2022,STEER Basin,C, East,RHMA,76.9,0.769,2.49,alive,Herbivory on leaves
+2022,2/22/2022,STEER Basin,C, East,RHMA,99.6,0.996,2.18,alive,Herbivory
+2022,2/22/2022,STEER Basin,C, East,RHMA,106.3,1.063,1.84,alive,has mealy bugs
+2022,2/22/2022,STEER Basin,C, East,RHMA,54.3,0.543,1.98,alive,"squashed under termite nest, has mealy bugs"
+2022,2/22/2022,STEER Basin,C,West,RHMA,196.5,1.965,0.84,alive,some mealy bugs
+2022,10/19/2021,STEER Fringe,A,East,RHMA,235,2.350,2.06,alive,
+2022,10/19/2021,STEER Fringe,A,East,RHMA,137,1.370,1.65,alive,
+2022,10/19/2021,STEER Fringe,A,East,RHMA,127,1.270,1.36,alive,
+2022,10/19/2021,STEER Fringe,A,East,RHMA,138,1.380,1.62,alive,
+2022,10/19/2021,STEER Fringe,A,South,RHMA,74,0.740,1.02,alive,
+2022,10/19/2021,STEER Fringe,A,South,RHMA,229,2.290,1.11,alive,
+2022,10/19/2021,STEER Fringe,A,South,RHMA,138,1.380,1.09,alive,
+2022,10/19/2021,STEER Fringe,A,South,RHMA,178,1.780,1.16,alive,
+2022,10/19/2021,STEER Fringe,A,South,RHMA,195,1.950,1.68,alive,
+2022,10/19/2021,STEER Fringe,A,West,RHMA,228,2.280,1.31,alive,
+2022,10/19/2021,STEER Fringe,A,West,RHMA,209,2.090,2.04,alive,
+2022,10/19/2021,STEER Fringe,A,West,RHMA,245,2.450,1.99,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,300,3.000,1.14,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,359.5,3.595,0.59,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,280,2.800,1.15,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,126,1.260,0.98,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,316,3.160,1.32,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,350,3.500,1.62,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,310,3.100,1.25,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,157,1.570,0.38,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,198,1.980,0.61,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,288,2.880,0.91,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,302,3.020,1,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,300,3.000,1.2,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,300,3.000,1.18,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,245,2.450,0.76,alive,
+2022,10/19/2021,STEER Fringe,B,East,RHMA,330,3.300,1.32,alive,
+2022,10/19/2021,STEER Fringe,B,North,RHMA,102,1.020,1.6,alive,
+2022,10/19/2021,STEER Fringe,B,North,RHMA,161,1.610,0.7,alive,
+2022,10/19/2021,STEER Fringe,B,North,RHMA,122,1.220,1.25,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,143,1.430,1,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,181,1.810,0.65,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,285,2.850,1.22,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,240,2.400,0.9,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,164,1.640,0.6,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,189,1.890,0.75,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,235,2.350,0.8,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,196,1.960,0.75,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,116,1.160,0.8,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,167,1.670,0.6,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,180,1.800,0.4,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,213,2.130,0.95,alive,
+2022,10/19/2021,STEER Fringe,B,South,RHMA,230,2.300,1.1,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,210,2.100,0.9,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,260,2.600,1,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,310,3.100,1.25,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,305,3.050,1.15,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,310,3.100,0.9,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,350,3.500,1.25,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,400,4.000,1.55,alive,
+2022,10/19/2021,STEER Fringe,B,West,RHMA,340,3.400,1.75,alive,
+2022,10/19/2021,STEER Fringe,C,East,RHMA,240,2.400,0.97,alive,
+2022,10/19/2021,STEER Fringe,C,East,RHMA,212,2.120,0.826,alive,
+2022,10/19/2021,STEER Fringe,C,East,RHMA,253.5,2.535,0.937,alive,
+2022,12/2/2021,Turner Bay,A,East,LARA,457.2,4.572,2.3,alive,
+2022,12/2/2021,Turner Bay,A,East,LARA,487.7,4.877,2.1,alive,
+2022,12/2/2021,Turner Bay,A,East,LARA,518.16,5.182,2.3,alive,
+2022,12/2/2021,Turner Bay,A,East,RHMA,61,0.610,1.1,alive,
+2022,12/2/2021,Turner Bay,A,North,LARA,460,4.600,2.1,alive,
+2022,12/2/2021,Turner Bay,A,South,RHMA,240,2.400,0.9,alive,
+2022,12/8/2021,Turner Bay,B,North,RHMA,56,0.560,0.95,alive,
+2022,12/10/2021,Turner Bay,C,South,LARA,210,2.100,0.63,alive,
+2022,12/10/2021,Turner Bay,C,South,LARA,400,4.000,0.97,alive,
+2022,12/10/2021,Turner Bay,C,South,LARA,250,2.500,1.72,alive,
+2022,12/10/2021,Turner Bay,C,South,LARA,500,5.000,1.61,alive,
+2022,12/10/2021,Turner Bay,C,South,LARA,550,5.500,1.2,alive,
+2022,12/10/2021,Turner Bay,C,South,RHMA,300,3.000,2.1,alive,
+2022,12/10/2021,Turner Bay,C,South,RHMA,500,5.000,1.5,alive,
+2022,9/28/2021,Vessup Bay,A,East,LARA,210,2.100,1.3,alive,
+2022,2/25/2022,Water Creek,A,South,LARA,203,2.030,1,alive,
+2023,11/22/2022,Brewers Bay,A,North,LARA,500,5.000,2.45,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,800,8.000,1.03,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,250,2.500,0.86,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,250,2.500,0.71,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,300,3.000,1.04,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,200,2.000,0.56,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,150,1.500,0.33,alive,
+2023,11/22/2022,Brewers Bay,A,West,LARA,82,0.820,0.65,alive,measured at base
+2023,11/22/2022,Brewers Bay,B,South,LARA,450,4.500,0.05,alive,
+2023,11/22/2022,Brewers Bay,B,South,LARA,350,3.500,0.68,alive,
+2023,11/22/2022,Brewers Bay,B,South,LARA,700,7.000,1.58,alive,
+2023,11/22/2022,Brewers Bay,B,South,LARA,600,6.000,1.18,alive,
+2023,11/22/2022,Brewers Bay,C,East,RHMA,130,1.300,1.87,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,East,RHMA,125.8,1.258,1.82,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,East,RHMA,107,1.070,1.49,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,72,0.720,1.24,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,73,0.730,1.52,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,85,0.850,1.55,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,82.5,0.825,1.77,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,119,1.190,1.74,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,South,RHMA,145,1.450,0.42,alive,
+2023,11/22/2022,Brewers Bay,C,South,RHMA,143,1.430,0.53,alive,
+2023,11/22/2022,Brewers Bay,C,South,RHMA,159,1.590,0.53,alive,
+2023,11/22/2022,Brewers Bay,C,West,RHMA,68,0.680,1.33,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,80.5,0.805,1.55,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,60,0.600,0.74,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,63,0.630,1.02,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,64,0.640,1.88,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,60,0.600,1.02,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,65,0.650,1.39,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,73,0.730,1.27,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,75,0.750,1.62,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,74,0.740,1.85,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,54,0.540,1.13,alive,measured at base
+2023,11/22/2022,Brewers Bay,C,West,RHMA,75,0.750,1.06,alive,measured at base
+2023,11/23/2022,Compass Point,A,East,RHMA,65,0.650,1.36,alive,measured at base
+2023,11/23/2022,Compass Point,A,East,RHMA,66.3,0.663,1.48,alive,measured at base
+2023,11/23/2022,Compass Point,A,East,RHMA,55.3,0.553,1.24,alive,measured at base
+2023,11/23/2022,Compass Point,A,North,RHMA,400,4.000,1.7,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,121,1.210,1.15,alive,measured at base
+2023,11/23/2022,Compass Point,A,North,RHMA,78,0.780,1.04,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,550,5.500,1.43,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,400,4.000,1.57,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,150,1.500,2.15,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,100,1.000,1.78,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,300,3.000,1.92,alive,
+2023,11/23/2022,Compass Point,A,North,RHMA,350,3.500,1.96,alive,
+2023,11/23/2022,Compass Point,A,South,RHMA,53,0.530,1.34,alive,measured at base
+2023,11/23/2022,Compass Point,A,South,RHMA,55,0.550,1.29,alive,measured at base
+2023,11/23/2022,Compass Point,A,South,RHMA,55,0.550,1.38,alive,measured at base
+2023,11/23/2022,Compass Point,A,South,RHMA,54,0.540,1.41,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,93,0.930,2.05,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,122,1.220,1.85,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,58,0.580,1.05,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,89,0.890,1.57,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,64,0.640,1.4,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,174,1.740,0.65,alive,
+2023,11/23/2022,Compass Point,A,West,RHMA,202,2.020,0.69,alive,
+2023,11/23/2022,Compass Point,A,West,RHMA,56,0.560,1.19,alive,measured at base
+2023,11/23/2022,Compass Point,A,West,RHMA,52,0.520,1.46,alive,measured at base
+2023,2/9/2023,Compass Point,B,North,RHMA,300,3.000,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,B,North,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,North,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,North,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,North,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,East,LARA,150,1.500,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,B,South,RHMA,130,1.300,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,B,South,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,South,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,West,RHMA,270,2.700,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,B,West,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,West,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,B,West,RHMA,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,C,North,AVGE,133,1.300,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,C,East,AVGE,165,1.650,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,C,East,AVGE,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,C,East,AVGE,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,C,East,AVGE,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,C,East,AVGE,,,,alive,no dbh/height measurement
+2023,2/9/2023,Compass Point,C,South,AVGE,105,1.050,,alive,no dbh measurement
+2023,2/9/2023,Compass Point,C,West,AVGE,290,2.900,,alive,no dbh measurement
+2023,2/22/2023,Francis Bay,C,East,LARA,210,2.100,1.54,alive,
+2023,2/22/2023,Francis Bay,C,South,LARA,400,4.000,8.4,alive,
+2023,2/16/2023,Great Pond,A,North,RHMA,52.5,0.525,1.61,alive,dbh taken at base
+2023,2/16/2023,Krause Lagoon,A,East,RHMA,400,4.000,2.06,alive,
+2023,2/16/2023,Krause Lagoon,A,East,RHMA,400,4.000,2.1,alive,
+2023,2/16/2023,Krause Lagoon,A,East,RHMA,375,3.750,2.21,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,350,3.500,1.76,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,415,4.150,1.67,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,385,3.850,1.43,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,475,4.750,2.34,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,475,4.750,1.09,alive,
+2023,2/16/2023,Krause Lagoon,A,North,RHMA,460,4.600,2,alive,
+2023,2/16/2023,Krause Lagoon,A,South,RHMA,240,2.400,1.04,alive,
+2023,2/16/2023,Krause Lagoon,A,South,RHMA,300,3.000,1.04,alive,
+2023,2/16/2023,Krause Lagoon,A,South,RHMA,475,4.750,1.69,alive,
+2023,2/16/2023,Krause Lagoon,A,South,RHMA,400,4.000,1.68,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,135.5,1.355,0.61,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,200,2.000,0.79,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,300,3.000,1.23,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,350,3.500,1.05,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,420,4.200,1.8,alive,
+2023,2/16/2023,Krause Lagoon,A,West,RHMA,132,1.320,0.54,alive,
+2023,2/16/2023,Krause Lagoon,B,East,RHMA,54.5,0.545,1.45,alive,
+2023,2/16/2023,Krause Lagoon,B,South,RHMA,243,2.430,1.52,alive,
+2023,2/21/2023,Lameshur Bay,A,West,AVGE,280,2.800,1.79,alive,
+2023,2/21/2023,Lameshur Bay,A,West,AVGE,345,3.450,1.16,alive,
+2023,2/21/2023,Lameshur Bay,A,West,AVGE,332,3.320,0.84,alive,
+2023,2/21/2023,Lameshur Bay,A,West,AVGE,124,1.240,1.96,alive,
+2023,2/21/2023,Lameshur Bay,A,West,AVGE,191,1.910,0.74,alive,
+2023,2/21/2023,Lameshur Bay,B,North,AVGE,50,0.500,1.67,alive,measured at base
+2023,2/21/2023,Lameshur Bay,C,East,RHMA,52.8,0.528,1.39,alive,measured at base
+2023,2/21/2023,Lameshur Bay,C,South,RHMA,270,2.700,2.49,alive,
+2023,2/21/2023,Lameshur Bay,C,South,RHMA,225,2.250,1.6,alive,
+2023,2/21/2023,Lameshur Bay,C,South,RHMA,225,2.250,2.23,alive,
+2023,11/11/2022,Magens Bay,A,North,RHMA,205,2.050,0.75,alive,Disease on leaves
+2023,11/11/2022,Magens Bay,A,North,RHMA,197,1.970,0.65,alive,Disease on leaves
+2023,11/11/2022,Magens Bay,A,North,RHMA,225,2.250,0.86,alive,Disease on leaves
+2023,11/11/2022,Magens Bay,A,North,RHMA,355,3.550,1.35,alive,Disease on leaves
+2023,11/11/2022,Magens Bay,A,South,RHMA,171,1.710,0.51,alive,
+2023,11/11/2022,Magens Bay,A,South,RHMA,159,1.590,0.48,alive,
+2023,11/11/2022,Magens Bay,A,South,RHMA,302,3.020,1.15,alive,measured at base
+2023,11/11/2022,Magens Bay,A,West,RHMA,280,2.800,1.08,alive,lots of dead branches
+2023,11/11/2022,Magens Bay,B,South,RHMA,330,3.300,1.9,alive,healthy
+2023,11/11/2022,Magens Bay,B,South,RHMA,300,3.000,2,alive,
+2023,11/11/2022,Magens Bay,C,East,RHMA,210,2.100,1.05,alive,
+2023,11/11/2022,Magens Bay,C,East,RHMA,230,2.300,0.25,alive,
+2023,11/11/2022,Magens Bay,C,East,RHMA,370,3.700,1.21,alive,
+2023,11/11/2022,Magens Bay,C,East,RHMA,350,3.500,1.56,alive,
+2023,11/11/2022,Magens Bay,C,East,RHMA,380,3.800,1.42,alive,
+2023,11/11/2022,Magens Bay,C,North,RHMA,280,2.800,1.05,alive,height estimated (too tall to reach)
+2023,11/11/2022,Magens Bay,C,North,RHMA,213,2.130,0.73,alive,height estimated (too tall to reach)
+2023,11/11/2022,Magens Bay,C,North,RHMA,380,3.800,1.44,alive,height estimated (too tall to reach)
+2023,11/11/2022,Magens Bay,C,North,RHMA,415,4.150,2.15,alive,height estimated (too tall to reach)
+2023,11/11/2022,Magens Bay,C,North,RHMA,255,2.550,1.02,alive,height estimated (too tall to reach)
+2023,11/11/2022,Magens Bay,C,North,RHMA,96,0.960,1.01,alive,measured at base
+2023,11/11/2022,Magens Bay,C,South,RHMA,230,2.300,1.5,alive,
+2023,11/11/2022,Magens Bay,C,West,RHMA,450,4.500,2.28,alive,
+2023,11/11/2022,Magens Bay,C,West,RHMA,470,4.700,2.25,alive,
+2023,11/11/2022,Magens Bay,C,West,RHMA,380,3.800,1.79,alive,
+2023,11/21/2022,Mandahl Bay,A,East,LARA,236,2.360,1.5,alive,
+2023,11/21/2022,Mandahl Bay,A,North,LARA,108,1.080,0.6,alive,
+2023,11/21/2022,Mandahl Bay,A,North,LARA,79,0.790,1.1,alive,
+2023,11/21/2022,Mandahl Bay,A,North,LARA,66,0.660,0.15,alive,
+2023,11/21/2022,Mandahl Bay,A,North,LARA,109,1.090,0.5,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,213,2.130,1.2,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,102,1.020,0.2,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,199,1.990,0.3,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,147,1.470,0.25,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,165,1.650,0.2,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,132,1.320,0.8,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,204,2.040,0.4,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,287,2.870,1.2,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,153,1.530,0.2,alive,
+2023,11/21/2022,Mandahl Bay,A,West,LARA,207,2.070,0.5,alive,
+2023,11/21/2022,Mandahl Bay,B,North,LARA,191,1.910,0.48,alive,
+2023,11/21/2022,Mandahl Bay,B,North,LARA,325,3.250,1.67,alive,
+2023,11/21/2022,Mandahl Bay,B,North,LARA,193,1.930,0.83,alive,
+2023,11/21/2022,Mandahl Bay,B,West,LARA,102,1.020,1.7,alive,
+2023,11/21/2022,Mandahl Bay,C,East,LARA,68,0.680,0.7,alive,
+2023,11/21/2022,Mandahl Bay,C,East,LARA,94,0.940,0.6,alive,
+2023,11/21/2022,Mandahl Bay,C,East,LARA,169,1.690,0.1,alive,
+2023,11/21/2022,Mandahl Bay,C,East,LARA,82,0.820,1.5,alive,
+2023,11/21/2022,Mandahl Bay,C,East,LARA,53,0.530,0.4,alive,
+2023,11/21/2022,Mandahl Bay,C,South,LARA,215,2.150,0.5,alive,
+2023,11/23/2022,Perseverance Bay,A,East,LARA,96.9,0.969,0.87,alive,Bites
+2023,11/23/2022,Perseverance Bay,A,East,LARA,76.5,0.765,0.79,alive,Bites
+2023,11/23/2022,Perseverance Bay,A,East,LARA,95.6,0.956,0.91,alive,Bites
+2023,11/23/2022,Perseverance Bay,A,East,LARA,97.3,0.973,1.38,alive,Bites
+2023,11/23/2022,Perseverance Bay,A,West,RHMA,76.9,0.769,1.92,alive,
+2023,11/23/2022,Perseverance Bay,A,West,RHMA,68.3,0.683,1.61,alive,
+2023,11/23/2022,Perseverance Bay,A,West,RHMA,56.5,0.565,1.9,alive,
+2023,11/23/2022,Perseverance Bay,C,East,RHMA,102.9,1.029,2.53,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,East,RHMA,63.2,0.632,1.47,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,East,RHMA,67.1,0.671,1.6,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,North,RHMA,73,0.730,1.58,alive,LCP. measured at base
+2023,11/23/2022,Perseverance Bay,C,North,RHMA,81,0.810,0.91,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,North,RHMA,99,0.990,2.3,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,North,RHMA,60,0.600,1.35,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,North,RHMA,85.5,0.855,1.1,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,56,0.560,1,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,55,0.550,1.17,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,90,0.900,1.97,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,102,1.020,1.25,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,99,0.990,0.8,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,95,0.950,1.31,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,South,RHMA,161,1.610,0.49,alive,
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,69,0.690,1.3,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,64,0.640,1.4,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,82,0.820,1.14,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,52,0.520,0.81,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,80,0.800,0.73,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,58,0.580,0.55,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,62,0.620,1.45,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,76,0.760,0.79,alive,measured at base
+2023,11/23/2022,Perseverance Bay,C,West,RHMA,65,0.650,0.44,alive,measured at base
+2023,11/23/2022,Perseverance Bay,B,West,RHMA,62.5,0.625,2.47,alive,measured at base
+2023,2/21/2023,Princess Bay,B,East,RHMA,136,1.360,2.23,alive,
+2023,2/21/2023,Princess Bay,C,East,RHMA,21.5,0.215,,alive,dbh not recorded
+2023,2/21/2023,Princess Bay,C,North,LARA,200,2.000,1.46,alive,
+2023,2/21/2023,Princess Bay,C,North,LARA,149,1.490,0.38,alive,
+2023,2/21/2023,Princess Bay,C,South,RHMA,141.5,1.415,2.22,alive,
+2023,2/21/2023,Princess Bay,C,South,RHMA,177,1.770,0.76,alive,
+2023,2/21/2023,Princess Bay,C,West,RHMA,143.8,1.438,0.57,alive,
+2023,2/21/2023,Princess Bay,C,West,RHMA,133.5,1.335,2.05,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,205,2.050,0.96,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,255,2.550,1.23,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,275,2.750,1.38,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,285,2.850,1.26,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,270,2.700,1.35,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,220,2.200,1.82,alive,
+2023,2/23/2023,Reef Bay,B,East,LARA,205,2.050,0.83,alive,
+2023,2/23/2023,Reef Bay,B,West,AVGE,106,1.060,1.9,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,75,0.750,0.9,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,147,1.470,1.65,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,44,0.440,1.19,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,66.4,0.664,0.7,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,178,1.780,2.14,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,50,0.500,1,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,86.3,0.863,1.1,alive,
+2023,2/23/2023,Reef Bay,C,South,AVGE,98.7,0.987,1.46,alive,
+2023,2/15/2023,Salt River,A,East,LARA,256,2.560,0.79,alive,
+2023,2/15/2023,Salt River,A,East,LARA,317,3.170,1.05,alive,
+2023,2/15/2023,Salt River,A,East,LARA,74.5,0.745,1.26,alive,
+2023,2/15/2023,Salt River,A,East,LARA,116,1.160,1.05,alive,
+2023,2/15/2023,Salt River,A,East,LARA,115,1.150,1.39,alive,
+2023,2/15/2023,Salt River,A,East,LARA,138,1.380,1.19,alive,
+2023,2/15/2023,Salt River,A,East,LARA,128,1.280,2.04,alive,
+2023,2/17/2023,Southgate,C,East,LARA,118,1.180,0.87,alive,measured at base
+2023,2/17/2023,Southgate,C,South,LARA,375,3.750,1.2,alive,
+2023,2/17/2023,Southgate,C,South,LARA,68,0.680,0.45,alive,
+2023,2/17/2023,Southgate,C,South,LARA,53,0.530,0.5,alive,
+2023,2/17/2023,Southgate,C,South,LARA,51,0.510,0.47,alive,
+2023,1/12/2023,STEER Basin,B,East,RHMA,175.2,1.752,0.84,alive,
+2023,1/12/2023,STEER Basin,B,East,RHMA,161,1.610,0.71,alive,
+2023,1/12/2023,STEER Basin,B,South,RHMA,151.2,1.512,0.51,alive,
+2023,1/12/2023,STEER Basin,B,South,RHMA,177.4,1.774,0.48,alive,
+2023,1/12/2023,STEER Basin,B,South,RHMA,203,2.030,0.86,alive,
+2023,1/12/2023,STEER Basin,B,South,LARA,124.5,1.245,2.5,alive,measured at base
+2023,1/12/2023,STEER Basin,B,South,LARA,124,1.240,1.83,alive,measured at base
+2023,1/12/2023,STEER Basin,B,South,LARA,66,0.660,1.17,alive,measured at base
+2023,1/12/2023,STEER Basin,B,South,LARA,138.5,1.385,2.29,alive,measured at base
+2023,1/12/2023,STEER Basin,B,South,LARA,200,2.000,0.75,alive,
+2023,1/12/2023,STEER Basin,B,South,LARA,176,1.760,0.57,alive,
+2023,1/12/2023,STEER Basin,B,West,RHMA,88,0.880,1.05,alive,measured at base
+2023,1/12/2023,STEER Basin,B,West,RHMA,137,1.370,2.05,alive,measured at base
+2023,1/12/2023,STEER Basin,B,West,RHMA,188,1.880,0.84,alive,
+2023,1/12/2023,STEER Basin,C,East,RHMA,175,1.750,5.4,alive,
+2023,1/12/2023,STEER Basin,C,East,RHMA,98,0.980,1.8,alive,
+2023,1/12/2023,STEER Basin,C,East,RHMA,81,0.810,1.7,alive,
+2023,1/12/2023,STEER Basin,C,East,RHMA,116,1.160,1.85,alive,meely bugs
+2023,1/12/2023,STEER Basin,C,North,RHMA,65,0.650,1.85,alive,
+2023,1/12/2023,STEER Basin,C,North,RHMA,99,0.990,1.67,alive,
+2023,1/12/2023,STEER Basin,C,West,RHMA,244,2.440,1.7,alive,
+2023,1/12/2023,STEER Basin,C,West,RHMA,185,1.850,1.06,alive,
+2023,1/12/2023,STEER Basin,C,West,LARA,165,1.650,4.5,alive,
+2023,1/12/2023,STEER Basin,C,West,LARA,210,2.100,1.01,alive,
+2023,1/12/2023,STEER Fringe,A,East,RHMA,106,1.060,1.79,alive,
+2023,1/12/2023,STEER Fringe,A,East,RHMA,187,1.870,0.84,alive,
+2023,1/12/2023,STEER Fringe,A,North,RHMA,149.5,1.495,0.981,alive,herbivory on leaves
+2023,1/12/2023,STEER Fringe,A,North,RHMA,81.8,0.818,1.76,alive,herbivory on leaves
+2023,1/12/2023,STEER Fringe,B,North,RHMA,285,2.850,1.29,alive,
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,1.44,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,2.2,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,1.81,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,1.74,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,1.61,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,North,RHMA,350,3.500,1.33,alive,"has propagules, estimated height"
+2023,1/12/2023,STEER Fringe,B,North,RHMA,400,4.000,1.51,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,South,RHMA,330,3.300,1.08,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,450,4.500,2.13,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,300,3.000,1.34,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,400,4.000,1.03,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,280,2.800,1.4,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,450,4.500,2.05,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,South,RHMA,280,2.800,1.41,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,270,2.700,1.2,alive,
+2023,1/12/2023,STEER Fringe,B,South,RHMA,400,4.000,1.99,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,South,RHMA,400,4.000,1.46,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,South,RHMA,350,3.500,1.66,alive,estiamated height
+2023,1/12/2023,STEER Fringe,B,West,RHMA,215,2.150,0.82,alive,
+2023,1/12/2023,STEER Fringe,B,West,RHMA,165,1.650,0.56,dead,dead
+2023,1/12/2023,STEER Fringe,B,West,RHMA,300,3.000,1.04,alive,
+2023,1/12/2023,STEER Fringe,B,West,RHMA,350,3.500,1.46,dead,dead
+2023,1/12/2023,STEER Fringe,B,West,RHMA,181,1.810,0.53,alive,
+2023,1/12/2023,STEER Fringe,B,West,RHMA,400,4.000,2.27,alive,
+2023,1/12/2023,STEER Fringe,B,West,RHMA,,,1.4,dead,"dead, height not recorded"
+2023,1/12/2023,STEER Fringe,B,West,RHMA,220,2.200,0.94,alive,
+2023,1/12/2023,STEER Fringe,B,West,RHMA,136,1.360,1.74,dead,dead
+2023,1/12/2023,STEER Fringe,C,East,RHMA,330,3.300,1.83,alive,
+2023,1/12/2023,STEER Fringe,C,East,RHMA,50,0.500,1.5,alive,measured at base
+2023,2/22/2023,Turner Bay,A,East,LARA,400,4.000,1.81,alive,
+2023,2/22/2023,Turner Bay,A,East,LARA,197,1.970,2.13,alive,
+2023,2/22/2023,Turner Bay,A,North,RHMA,600,6.000,0.53,alive,
+2023,2/22/2023,Turner Bay,A,South,RHMA,63.5,0.635,1.36,alive,
+2023,2/22/2023,Turner Bay,A,South,RHMA,52.5,0.525,1.2,alive,
+2023,2/22/2023,Turner Bay,A,South,RHMA,51.1,0.511,1.15,alive,
+2023,2/22/2023,Turner Bay,B,South,RHMA,55.5,0.555,1.44,alive,
+2023,2/22/2023,Turner Bay,C,North,RHMA,53.6,0.536,1.28,alive,measured at base
+2023,2/22/2023,Turner Bay,C,North,RHMA,51.5,0.515,1.27,alive,measured at base
+2023,2/22/2023,Turner Bay,C,West,RHMA,52,0.520,1.14,alive,measured at base
+2023,2/22/2023,Turner Bay,C,West,RHMA,52,0.520,1.65,alive,measured at base
+2023,11/21/2022,Vessup Bay,A,East,LARA,126,1.260,1.47,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,53,0.530,1.04,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,206,2.060,0.93,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,72,0.720,0.5,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,206,2.060,0.69,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,180,1.800,0.85,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,141,1.410,1.79,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,96,0.960,1.92,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,136,1.360,1.26,alive,
+2023,1/23/2023,Water Creek,C,South,LARA,162,1.620,1.22,alive,
+2024,6/5/2024,Brewers Bay,A,West,LARA,77.8,0.778,<1,alive,hermit crab
+2024,6/5/2024,Brewers Bay,A,West,LARA,65.5,0.655,<1,alive,hermit crab
+2024,6/5/2024,Brewers Bay,A,West,LARA,60.1,0.601,<1,alive,hermit crab
+2024,6/5/2024,Brewers Bay,A,West,LARA,142,1.420,<1,alive,hermit crab
+2024,6/10/2024,Brewers Bay,B,South,LARA,210,2.100,0.67,alive,dying
+2024,6/10/2024,Brewers Bay,B,South,LARA,285,2.850,0.97,alive,unhealthy - disease 
+2024,6/17/2024,Brewers Bay,C,East,LARA,69,0.690,0.5,alive,
+2024,6/17/2024,Brewers Bay,C,East,LARA,71,0.710,0.5,alive,
+2024,6/17/2024,Brewers Bay,C,North,RHMA,72,0.720,1.2,alive,
+2024,6/17/2024,Brewers Bay,C,North,RHMA,69.5,0.695,1.3,alive,
+2024,6/17/2024,Brewers Bay,C,North,RHMA,51,0.510,0.9,alive,
+2024,6/17/2024,Brewers Bay,C,North,RHMA,159,1.590,1.1,alive,
+2024,6/17/2024,Brewers Bay,C,North,LARA,126,1.260,1.2,alive,
+2024,6/17/2024,Brewers Bay,C,South,RHMA,182,1.820,1.7,alive,
+2024,6/17/2024,Brewers Bay,C,South,RHMA,201,2.010,0.2,alive,
+2024,6/17/2024,Brewers Bay,C,South,RHMA,83,0.830,1.1,alive,no leaves
+2024,6/17/2024,Brewers Bay,C,South,RHMA,73,0.730,1.3,alive,no leaves
+2024,6/17/2024,Brewers Bay,C,South,RHMA,175,1.750,0.21,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,102,1.020,1.9,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,71.5,0.715,0.2,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,104,1.040,1.9,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,192,1.920,1.7,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,65,0.650,1.13,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,67,0.670,1.3,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,75,0.750,1.2,alive,
+2024,6/17/2024,Brewers Bay,C,West,RHMA,82.5,0.825,1.25,alive,
+2024,7/17/2024,Francis Bay,C,East,LARA,78,0.780,0.84,alive,
+2024,7/17/2024,Francis Bay,C,East,LARA,65,0.650,0.69,alive,
+2024,7/17/2024,Francis Bay,C,North,LARA,120,1.200,1.21,alive,
+2024,7/24/2024,Great Pond ,A,East,AVGE,129.7,1.297,30.5,alive,
+2024,7/24/2024,Great Pond ,A,North,RHMA,67.5,0.675,14.3,alive,
+2024,7/23/2024,Krause Lagoon,A,East,RHMA,340.36,3.404,1.88,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,241.3,2.413,2.35,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,228.6,2.286,1.9,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,314.96,3.150,0.93,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,386.08,3.861,1.7,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,353.06,3.531,1.84,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,411.48,4.115,2.13,alive,
+2024,7/23/2024,Krause Lagoon,A,North,RHMA,373.38,3.734,1.67,alive,
+2024,7/23/2024,Krause Lagoon,A,South,RHMA,469.9,4.699,2,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,312.42,3.124,0.92,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,495.3,4.953,2.05,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,269.24,2.692,1.5,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,205.74,2.057,1.03,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,264.16,2.642,1.51,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,414.02,4.140,2.06,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,312.42,3.124,1.12,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,279.4,2.794,0.98,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,386.08,3.861,1.52,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,302.26,3.023,1.16,alive,
+2024,7/23/2024,Krause Lagoon,A,West,RHMA,70.1,0.701,0.65,alive,
+2024,7/23/2024,Krause Lagoon,B,East,RHMA,144.1,1.441,0.9,alive,
+2024,7/23/2024,Krause Lagoon,B,East,RHMA,107.6,1.076,1.95,alive,
+2024,7/23/2024,Krause Lagoon,B,South,RHMA,143,1.430,0.67,alive,
+2024,7/23/2024,Krause Lagoon,B,West,RHMA,291,2.910,1.12,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,51,0.510,0.8,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,71.5,0.715,0.7,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,50.2,0.502,0.4,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,73.5,0.735,0.8,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,51.2,0.512,0.6,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,65.7,0.657,0.6,alive,
+2024,8/6/2024,Lameshur Bay,B,East,AVGE,64.8,0.648,0.8,alive,
+2024,8/6/2024,Lameshur Bay,B,North,AVGE,52.5,0.525,1.6,alive,
+2024,8/6/2024,Lameshur Bay,B,North,AVGE,56.4,0.564,1.3,alive,
+2024,8/6/2024,Lameshur Bay,B,North,AVGE,56.8,0.568,1.4,alive,
+2024,8/6/2024,Lameshur Bay,B,South,AVGE,72.3,0.723,1.2,alive,
+2024,8/6/2024,Lameshur Bay,B,South,AVGE,58,0.580,1.8,alive,
+2024,8/6/2024,Lameshur Bay,B,South,AVGE,120,1.200,2.4,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,164,1.640,0.5,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,222,2.220,0.4,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,360,3.600,2.2,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,93.4,0.934,1.3,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,112.8,1.128,1.7,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,82,0.820,1.9,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,76.5,0.765,0.7,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,173.5,1.735,1.8,alive,
+2024,8/6/2024,Lameshur Bay,B,West,AVGE,118,1.180,1.7,alive,
+2024,8/6/2024,Lameshur Bay,C,East,RHMA,54,0.540,1.85,alive,
+2024,8/6/2024,Lameshur Bay,C,East,RHMA,62.5,0.625,1.79,alive,
+2024,8/6/2024,Lameshur Bay,C,East,RHMA,52.5,0.525,1.95,alive,
+2024,8/6/2024,Lameshur Bay,C,East,RHMA,63,0.630,1.38,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,78,0.780,2.2,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,63,0.630,1.3,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,50.5,0.505,1.14,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,51.8,0.518,1.13,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,64.5,0.645,1.03,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,56.5,0.565,1.14,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,57,0.570,1.03,alive,hypo pred
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,70.4,0.704,1.14,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,66.8,0.668,1.47,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,77.3,0.773,1.73,alive,
+2024,8/6/2024,Lameshur Bay,C,North,RHMA,57.6,0.576,1.15,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,58.1,0.581,0.55,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,88.3,0.883,0.28,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,102.5,1.025,1.13,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,73.5,0.735,1.11,alive,unhealthy
+2024,8/6/2024,Lameshur Bay,C,North,LARA,62,0.620,0.58,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,59.4,0.594,0.42,alive,
+2024,8/6/2024,Lameshur Bay,C,North,LARA,138.3,1.383,1.63,alive,
+2024,8/6/2024,Lameshur Bay,C,South,RHMA,78,0.780,1.87,alive,
+2024,8/6/2024,Lameshur Bay,C,South,RHMA,66,0.660,1.51,alive,
+2024,8/6/2024,Lameshur Bay,C,South,RHMA,62,0.620,1.13,alive,
+2024,8/6/2024,Lameshur Bay,C,South,RHMA,65,0.650,1.138,alive,
+2024,7/9/2024,Magens Bay,A,East,RHMA,800,8.000,2.39,alive,
+2024,7/9/2024,Magens Bay,A,North,RHMA,114,1.140,2.54,dead,DBH AT BASE no real DBH dead
+2024,7/9/2024,Magens Bay,A,South,RHMA,76.1,0.761,1.44,alive,
+2024,7/9/2024,Magens Bay,B,West,RHMA,750,7.500,2.45,alive,
+2024,7/19/2024,Magens Bay,C,South,RHMA,323.088,3.231,1.24,alive,Healthy
+2024,7/19/2024,Magens Bay,C,West,RHMA,530.352,5.304,2.45,alive,Healthy
+2024,6/10/2024,Mandahl Bay,A,East,LARA,245,2.450,1.01,alive,
+2024,6/10/2024,Mandahl Bay,A,East,LARA,171.5,1.715,0.35,alive,
+2024,6/10/2024,Mandahl Bay,A,East,LARA,265.4,2.654,0.94,alive,
+2024,6/10/2024,Mandahl Bay,A,East,RHMA,120.1,1.201,1.27,alive,
+2024,6/10/2024,Mandahl Bay,A,South,LARA,344.2,3.442,1.14,alive,
+2024,6/10/2024,Mandahl Bay,A,West,RHMA,72.3,0.723,16.2,alive,
+2024,6/10/2024,Mandahl Bay,A,West,RHMA,187.2,1.872,0.72,alive,
+2024,6/10/2024,Mandahl Bay,A,West,LARA,388.1,3.881,1.17,alive,
+2024,6/7/2024,Mandahl Bay,B,East,RHMA,57.7,0.577,2.14,alive,shriveled leaves
+2024,6/7/2024,Mandahl Bay,B,North,LARA,198,1.980,<1,alive,disease - leaf spots
+2024,6/7/2024,Mandahl Bay,B,North,LARA,137,1.370,<1,alive,disease - leaf spots
+2024,6/7/2024,Mandahl Bay,B,South,RHMA,133.3,1.333,2.29,alive,
+2024,6/7/2024,Mandahl Bay,B,West,LARA,116,1.160,1.73,alive,disease - leaf spots
+2024,6/7/2024,Mandahl Bay,B,West,RHMA,131.6,1.316,<1,alive,
+2024,6/10/2024,Mandahl Bay,C,North,LARA,248,2.480,,alive,forgot to take DBH
+2024,7/18/2024,Princess Bay,C,South,RHMA,207.5,2.075,1.2,alive,
+2024,7/18/2024,Princess Bay,C,West,RHMA,240,2.400,1.3,alive,
+2024,9/18/2024,Reef Bay,A,East,AVGE,182,1.820,0.8,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,134,1.340,0.2,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,143,1.430,0.7,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,84,0.840,0.7,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,182,1.820,0.6,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,415,4.150,1.3,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,145,1.450,0.4,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,440,4.400,1,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,350,3.500,0.8,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,375,3.750,0.9,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,410,4.100,1.5,alive,
+2024,9/18/2024,Reef Bay,A,South,LARA,325,3.250,1.4,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,215,2.150,0.9,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,213,2.130,1,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,154,1.540,0.4,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,305,3.050,1.9,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,315,3.150,2.1,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,265,2.650,2.4,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,435,4.350,2.3,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,158,1.580,0.3,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,218,2.180,0.7,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,235,2.350,1,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,146,1.460,0.2,alive,
+2024,9/18/2024,Reef Bay,B,East,LARA,293,2.930,1.4,alive,
+2024,9/18/2024,Reef Bay,B,West,AVGE,245,2.450,2.2,alive,
+2024,9/18/2024,Reef Bay,B,West,AVGE,105,1.050,0.2,alive,
+2024,7/24/2024,Salt River,A,East,LARA,352,3.520,30.2,alive,
+2024,7/24/2024,Salt River,A,East,LARA,105,1.050,10.2,alive,
+2024,7/24/2024,Salt River,A,East,LARA,84,0.840,7.1,alive,
+2024,7/24/2024,Salt River,A,East,LARA,133,1.330,23.1,alive,
+2024,7/24/2024,Salt River,A,East,LARA,105,1.050,11,alive,
+2024,7/24/2024,Salt River,A,East,LARA,230,2.300,28.7,alive,
+2024,7/24/2024,Salt River,A,East,LARA,144,1.440,17.8,alive,
+2024,7/24/2024,Salt River,A,East,LARA,180,1.800,11.6,alive,
+2024,7/24/2024,Salt River,A,East,LARA,240,2.400,18.3,alive,
+2024,7/24/2024,Salt River,A,East,LARA,120,1.200,17,alive,
+2024,7/24/2024,Salt River,A,East,LARA,72,0.720,10.8,alive,
+2024,7/24/2024,Salt River,A,East,LARA,125,1.250,14.8,alive,
+2024,7/24/2024,Salt River,A,East,LARA,174,1.740,16.2,alive,
+2024,7/24/2024,Salt River,A,East,LARA,320,3.200,26.6,alive,
+2024,7/24/2024,Salt River,A,East,LARA,254,2.540,2.6,alive,
+2024,7/24/2024,Salt River,A,East,LARA,330,3.300,50.9,alive,
+2024,7/24/2024,Salt River,A,East,LARA,110,1.100,16.8,alive,
+2024,7/24/2024,Salt River,A,East,LARA,301.1,3.011,32.8,alive,
+2024,7/24/2024,Salt River,A,South,LARA,221,2.210,20.7,alive,
+2024,7/24/2024,Salt River,A,South,LARA,98.5,0.985,14.6,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,104,1.040,1.43,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,77.6,0.776,1.59,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,94,0.940,1.01,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,102,1.020,1.18,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,78.4,0.784,1.77,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,72.3,0.723,1.62,alive,
+2024,7/24/2024,Salt River,B,North,RHMA,103.5,1.035,1.32,alive,
+2024,7/24/2024,Salt River,C,North,RHMA,75,0.750,1.33,alive,
+2024,7/24/2024,Salt River,C,North,RHMA,54,0.540,1.4,alive,
+2024,7/24/2024,Salt River,C,North,RHMA,52.1,0.521,1.15,alive,
+2024,7/24/2024,Salt River,C,North,RHMA,61.3,0.613,1.33,alive,
+2024,7/5/2024,STEER Fringe,A,South,RHMA,79,0.790,2.12,alive,
+2024,7/5/2024,STEER Fringe,A,West,RHMA,250,2.500,2.4,alive,
+2024,7/5/2024,STEER Fringe,A,West,RHMA,96,0.960,2.16,alive,
+2024,7/5/2024,STEER Fringe,B,East,RHMA,288,2.880,0.86,alive,
+2024,7/5/2024,STEER Fringe,B,East,RHMA,400,4.000,1.1,alive,
+2024,7/5/2024,STEER Fringe,B,South,RHMA,800,8.000,1.87,alive,
+2024,7/5/2024,STEER Fringe,B,South,LARA,750,7.500,1.68,alive,
+2024,7/5/2024,STEER Fringe,B,South,LARA,600,6.000,1.14,alive,
+2024,7/5/2024,STEER Fringe,B,West,RHMA,298,2.980,1.78,alive,
+2024,7/5/2024,STEER Fringe,C,South,RHMA,425,4.250,2.2,alive,
+2024,7/5/2024,STEER Fringe,C,South,RHMA,300,3.000,2.4,alive,
+2024,7/5/2024,STEER Fringe,C,South,RHMA,400,4.000,1.8,alive,
+2024,8/7/2024,Turner Bay,A,South,RHMA,79,0.790,0.8,alive,
+2024,8/7/2024,Turner Bay,A,South,RHMA,145,1.450,92,alive,
+2024,8/7/2024,Turner Bay,A,South ,RHMA,105.5,1.055,0.85,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,63,0.630,0.3,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,59,0.590,0.22,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,52.4,0.524,0.4,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,66.8,0.668,0.5,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,60,0.600,0.32,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,91,0.910,0.58,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,71.5,0.715,0.48,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,74.4,0.744,0.55,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,65,0.650,0.16,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,85.8,0.858,0.53,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,54,0.540,0.41,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,79,0.790,0.65,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,65.5,0.655,0.23,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,50.5,0.505,0.28,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,50.6,0.506,0.38,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,60.1,0.601,0.35,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,53,0.530,0.4,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,59.5,0.595,0.41,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,59,0.590,0.59,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,66.9,0.669,0.62,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,55,0.550,0.35,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,67.8,0.678,0.47,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,53.5,0.535,0.43,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,53,0.530,0.59,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,52,0.520,0.3,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,60.4,0.604,0.4,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,57,0.570,0.3,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,62.5,0.625,0.4,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,65.5,0.655,0.36,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,55.5,0.555,0.43,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,60,0.600,0.82,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,53,0.530,0.6,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,63,0.630,0.61,alive,
+2024,8/7/2024,Turner Bay,A,West ,RHMA,61,0.610,0.3,alive,
+2024,8/7/2024,Turner Bay,C,South,RHMA,55.7,0.557,1.62,alive,
+2024,8/7/2024,Turner Bay,C,West ,RHMA,55.4,0.554,1.59,alive,
+2024,8/8/2024,Water Creek ,A,North,LARA,294,2.940,0.67,alive,props connected and coming from same tree 
+2024,8/8/2024,Water Creek ,A,North,LARA,127,1.270,0.86,alive,props connected and coming from same tree 
+2024,8/8/2024,Water Creek ,A,North,LARA,150,1.500,0.82,alive,snapped on stem props 
+2024,8/8/2024,Water Creek ,A,North,LARA,184,1.840,0.65,alive,coming from larger tree base props
+2024,6/11/2024,Compass Point,A,North,RHMA,198.1,1.981,1.92,alive,
+2024,6/11/2024,Compass Point,A,North,RHMA,364,3.640,1.15,alive,
+2024,6/11/2024,Compass Point,A,East,RHMA,86.5,0.865,1.62,alive,"no true dbd, measured thick"
+2024,6/11/2024,Compass Point,A,South,RHMA,322,3.220,1.36,alive,
+2024,6/11/2024,Compass Point,A,South,RHMA,119,1.190,1.66,alive,measured by thickest part
+2024,6/11/2024,Compass Point,A,South,RHMA,57.5,0.575,1.42,alive,measured by thickest part
+2024,6/11/2024,Compass Point,A,West,RHMA,94.5,0.945,3.09,alive,measured at the base
+2024,6/11/2024,Compass Point,B,East,RHMA,53.5,0.535,1.44,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,East,RHMA,281.94,2.819,1.65,alive,"IP, healthy alive"
+2024,6/11/2024,Compass Point,B,East,RHMA,220.98,2.210,0.91,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,East,RHMA,68.1,0.681,1.46,alive,measured at the base
+2024,6/11/2024,Compass Point,B,South,RHMA,52.4,0.524,1.13,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,92.1,0.921,1.74,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,69.8,0.698,1.28,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,137.5,1.375,1.36,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,267,2.670,1,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,232.5,2.325,0.79,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,197,1.970,0.77,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,94.5,0.945,2.1,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,South,RHMA,52.2,0.522,1.18,alive,"NF, healthy alive"
+2024,6/11/2024,Compass Point,B,North,RHMA,53,0.530,1.39,alive,
+2024,6/11/2024,Compass Point,B,North,RHMA,226.5,2.265,1.25,alive,mother plant
+2024,6/11/2024,Compass Point,B,North,RHMA,185.3,1.853,0.54,alive,branches off main stem of mother plant
+2024,6/11/2024,Compass Point,B,North,RHMA,184.8,1.848,0.51,alive,branches off main stem of mother plant
+2024,6/11/2024,Compass Point,B,North,RHMA,182.9,1.829,0.55,alive,branches off main stem of mother plant
+2024,6/11/2024,Compass Point,B,North,RHMA,167.1,1.671,0.49,alive,branches off main stem of mother plant
+2024,6/11/2024,Compass Point,B,North,RHMA,156,1.560,0.42,alive,branches off main stem of mother plant
+2024,6/11/2024,Compass Point,C,West,AVGE,192,1.920,0.56,alive,
+2024,6/11/2024,Compass Point,C,West,AVGE,247,2.470,1.05,alive,
+2024,6/11/2024,Compass Point,C,West,AVGE,266,2.660,1.42,alive,
+2024,6/11/2024,Compass Point,C,West,AVGE,290,2.900,1.91,alive,
+2024,6/11/2024,Compass Point,C,West,AVGE,830,8.300,1.78,alive,
+2024,6/11/2024,Compass Point,C,West,AVGE,199,1.990,0.76,alive,
+2024,6/11/2024,Compass Point,C,South,AVGE,126,1.260,,alive,
+2024,6/11/2024,Compass Point,C,South,AVGE,148,1.480,6.7,alive,all healthy
+2024,6/11/2024,Compass Point,C,South,AVGE,195,1.950,4.44,alive,all healthy
+2024,6/11/2024,Compass Point,C,South,AVGE,155,1.550,60,alive,all healthy
+2024,6/11/2024,Compass Point,C,North,AVGE,179,1.790,0.54,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,North,AVGE,198,1.980,0.7,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,North,AVGE,188,1.880,0.6,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,North,AVGE,187,1.870,0.67,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,155,1.550,0.6,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,184,1.840,0.77,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,145.9,1.459,0.52,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,22,0.220,1.66,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,14.4,0.144,1.25,alive,all healthy but sick leaves
+2024,6/11/2024,Compass Point,C,East,AVGE,135.4,1.354,1.26,alive,all healthy but sick leaves
+2024,7/8/2024,STEER Basin,B,South,LARA,84.3,0.843,3.82,alive,"IP,MP"
+2024,7/8/2024,STEER Basin,B,South,LARA,213,2.130,1.19,alive,"IP,MP"
+2024,7/8/2024,STEER Basin,B,South,LARA,144,1.440,0.39,alive,"IP,MP"
+2024,7/8/2024,STEER Basin,B,South,RHMA,200,2.000,0.9,alive,"MP,F"
+2024,6/18/2024,STEER Basin,C,East,RHMA,195,1.950,1.6,alive,
+2024,6/18/2024,STEER Basin,C,North,RHMA,50.4,0.504,1.9,alive,
+2024,6/18/2024,STEER Basin,C,South,RHMA,305,3.050,2.6,alive,
+2024,6/12/2024,Perseverance Bay,C,West,RHMA,112.5,1.125,1.01,alive,root split
+2024,6/12/2024,Perseverance Bay,C,West,RHMA,366,3.660,1.34,alive,
+2024,6/12/2024,Perseverance Bay,C,West,RHMA,213.7,2.137,0.88,alive,MSS
+2024,6/12/2024,Perseverance Bay,C,West,RHMA,152,1.520,0.74,alive,predation
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,54.5,0.545,0.83,alive,NF
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,94.6,0.946,1.34,alive,NF
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,335,3.350,1.59,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,318,3.180,1.69,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,245.9,2.459,0.985,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,187.5,1.875,0.66,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,212,2.120,0.76,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,143.5,1.435,0.42,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,65.1,0.651,0.78,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,51.4,0.514,0.77,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,94.2,0.942,0.55,alive,
+2024,6/12/2024,Perseverance Bay,C,South,RHMA,115.1,1.151,0.6,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,148,1.480,0.41,alive,NF
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,82.9,0.829,0.86,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,92,0.920,0.7,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,119.5,1.195,2.15,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,210,2.100,1.08,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,98,0.980,0.11,alive,
+2024,6/12/2024,Perseverance Bay,B,West,RHMA,95,0.950,1.21,alive,
+2022,10/22/2021,Magens Bay,A,North,RHMA,201,2.010,0.7,alive,
+2023,11/22/2022,Brewers Bay,B,West,LARA,120,1.200,,alive,no dbh recorded
+2024,6/13/2024,Vessup Bay,A,East,LARA,156,1.560,,alive,no dbh recorded
+2024,6/13/2024,Vessup Bay,B,South,LARA,113,1.130,,alive,no dbh recorded
+2024,6/13/2024,Vessup Bay,B,South,LARA,,,,alive,no dbh/height recorded
+2024,6/13/2024,Vessup Bay,B,West,LARA,105,1.050,,alive,no dbh recorded

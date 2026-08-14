@@ -83,6 +83,7 @@ library(readr)
 library(plotrix)
 library(tidyverse)
 library(ggforce)
+library(patchwork)
 
 Coarse_wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Coarse woody debris.csv")
 
@@ -189,8 +190,23 @@ CountPlot<-CountMergeSite%>%
   ylab("Woody Debris Count")
 
 CountPlot
+
+
+#I want to plot stacked bar with medium and fine on the positive axes stacked per plot
+
+FinePlotStack<-CountMergeSite%>%
+  filter(Category=="Fine"|Category=="Medium")%>%
+  mutate(Count=Count*-1)%>%
+  ggplot(aes(x=Site_Plot, y=Count, fill=Category))+
+    geom_col(position="stack")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)+
+ scale_fill_manual(values=c("#834200","#B5651D"))+
+  ggtitle("Count of Fine Woody Debris Count Per Plot")+
+  xlab("Plot")+
+  ylab("Woody Debris Count")
   
-  
+ FinePlotStack 
 #point plot showing total counts of coarse debris dot for each plot (ABC)
   
   Cwoodcount<-Coarse_wood%>%
@@ -250,7 +266,9 @@ FineCountPlot<-CoarseMergeVolume%>%
   geom_boxplot()+ 
     geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  ggtitle("Count of Fine Woody Debris")
+  ggtitle("Count of Fine Woody Debris")+
+  scale_fill_manual(values=c("#889A34","#B5651D"))+
+  theme(axis.text.x = element_blank())
 
 FineCountPlot
 
@@ -263,9 +281,15 @@ MedCountPlot<-CoarseMergeVolume%>%
   geom_boxplot()+ 
     geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  ggtitle("Count of Medium Woody Debris")
+  ggtitle("Count of Medium Woody Debris")+
+  scale_fill_manual(values=c("#889A34","#B5651D"))
 
 MedCountPlot
+
+
+SmallCount<-FineCountPlot/MedCountPlot+plot_layout(axis_titles="collect")
+  
+SmallCount
 
 #point plot total mass of woody debris across sites
 MassPlot<-CoarseMergeVolume%>%
@@ -304,7 +328,8 @@ TotalMassPlot<-SmallMedCoarseVolume%>%
   geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   ggtitle("Mass of Woody Debris")+
-  ylab("Woody Debris (tonnes/ha)")
+  ylab("Woody Debris (tonnes/ha)")+
+  scale_fill_manual(values=c("#889A34","#B5651D"))
 TotalMassPlot
 
 #Total Woody Debris Volume
@@ -316,7 +341,8 @@ TotalVolumePlot<-SmallMedCoarseVolume%>%
    geom_point(size=1, position=position_dodge(width=0.75))+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   ggtitle("Volume of Woody Debris")+
-  ylab("Woody Debris (m3/ha)")
+  ylab("Woody Debris (m3/ha)")+
+  scale_fill_manual(values=c("#889A34","#B5651D"))
 TotalVolumePlot
   
 #mean and SEM plot
@@ -339,7 +365,8 @@ MeanVolPlot<-SmallMedCoarseVolume%>%
   ) +
   geom_hline(yintercept = 0)+
   facet_wrap(~SY, ncol=1)+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  scale_fill_manual(values=c("#889A34","#B5651D"))
 
 MeanVolPlot
 
@@ -411,6 +438,133 @@ WoodyDebrisSummaryMeanSEM<-SmallMedCoarseVolume%>%
 
 ```
 
+```{r}
+library(readr)
+library(plotrix)
+library(tidyverse)
+library(ggforce)
+
+Coarse_wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Coarse woody debris.csv")
+
+Wood <- read_csv("Data-Kaitlin/QA_QC TMMP Data 6-25-25 - Wood debris.csv")
+
+
+#QA/QC Cleaning 
+
+Coarsecheck<-Coarse_wood%>%
+  filter(Decay_class=="T")
+ 
+unique(Coarse_wood$Decay_class)
+#[1] "I"    "S"    "R"    "T"    "R, T" "I, T" "I, R"
+
+#in the cases where there are two classes listed, selecting the first class, filtering out the single instance of T only 
+Coarse_wood<-Coarse_wood%>%
+  filter(Decay_class!="T")%>%
+  mutate(Decay_class=recode(Decay_class,
+                            "R, T"="R",
+                            "I, T"="I",
+                            "I, R"="I"))
+
+unique(Coarse_wood$Decay_class)
+#looks good now! 
+
+unique(Coarse_wood$SY)
+unique(Coarse_wood$Island)
+unique(Coarse_wood$Site)
+unique(Coarse_wood$Plot)
+unique(Coarse_wood$Transect_num)
+
+
+#Will not have coarse debris data for every plot because if there is no coarse debris found then dbh is not entered
+
+#will need to use actual transect length for these calculations, think I need to pull that from fine wood.
+
+Coarse_wood$Decay_class<-factor(Coarse_wood$Decay_class,levels=c("R","I","S"))
+
+#want a count of all the total number of each in each debris class for each plot
+CoarseCount<-Coarse_wood%>%
+  group_by(SY, Site, Plot, Decay_class)%>%
+  summarise(N=n())%>%
+  pivot_wider(names_from = Decay_class, values_from =N )
+
+
+
+#stacked bar-plot
+Cwoodcount<-Coarse_wood%>%
+  group_by(SY,Site,Plot,Decay_class)%>%
+  summarise(N=n())%>%
+  mutate(Site_Plot = paste(Site, Plot, sep = " "))%>%
+  ggplot(aes(x=Site_Plot, y=N, fill=Decay_class))+
+    geom_col(position="stack")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)+
+ scale_fill_manual(values=c("#AAC041","#889A34","#444D1B"),labels=c("Rotton","Intermediate","Sound"))+
+  ggtitle("Count of Coarse Debris Encountered")+
+  xlab("Site")+
+  ylab("Woody Debris Count")
+  
+  Cwoodcount
+  
+#need to make a plot with counts of coarse on positive axes and fine and medium on negative axes, need to merge coarse counts with fine/medium counts
+
+FineCount<-Wood%>%
+    select(SY,Island,Site,Plot,Transect_num,Transect_m, Wood_fine_num, Wood_med_num)
+
+#selecting coarse pivioting wider so I can merge coarse and fine together
+Cwoodcount<-Coarse_wood%>%
+  group_by(SY,Site,Plot,Transect_num,Decay_class)%>%
+  summarise(N=n())%>%
+  pivot_wider(names_from =Decay_class , values_from = N)
+   
+#join the two df together  
+CountMerge<-FineCount%>%
+  left_join(Cwoodcount, by = c("SY", "Site","Plot", "Transect_num"))
+
+#make fine and medium negative then pivot longer for plotting
+CountMerge<-CountMerge%>%
+  mutate(Fine=Wood_fine_num*-1, Medium=Wood_med_num*-1)%>%
+  pivot_longer(cols=I:Medium, names_to = "Category" , values_to = "Count")
+
+CountMergeSite<-CountMerge%>%
+  mutate(Site_Plot = paste(Site, Plot, sep = " "))%>%
+  group_by(SY,Site_Plot, Category)%>%
+  summarise(Count=sum(Count))
+
+
+
+CountMergeSite[is.na(CountMergeSite)] <- 0
+
+CountMergeSite$Category<-factor(CountMergeSite$Category, levels=c("S", "I", "R", "Medium", "Fine"))
+
+#and now we plot!
+
+CountPlot<-CountMergeSite%>%
+  ggplot(aes(x=Site_Plot, y=Count, fill=Category))+
+    geom_col(position="stack")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)+
+ scale_fill_manual(values=c("#444D1B","#889A34","#AAC041","#834200","#B5651D"),labels=c("Sound","Intermediate","Rotton", "Medium","Fine"))+
+  ggtitle("Total Woody Debris Count Per Plot")+
+  xlab("Plot")+
+  ylab("Woody Debris Count")
+
+CountPlot
+
+
+#I want to plot stacked bar with medium and fine on the positive axes stacked per plot
+
+FinePlotStack<-CountMergeSite%>%
+  filter(Category=="Fine"|Category=="Medium")%>%
+  mutate(Count=Count*-1)%>%
+  ggplot(aes(x=Site_Plot, y=Count, fill=Category))+
+    geom_col(position="stack")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  facet_wrap(~SY, ncol=1)+
+ scale_fill_manual(values=c("#834200","#B5651D"))+
+  ggtitle("Count of Fine Woody Debris Count Per Plot")+
+  xlab("Plot")+
+  ylab("Woody Debris Count")
+```
 
 
 

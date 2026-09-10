@@ -117,7 +117,7 @@ all_sites_LF <- function(tree_measurements, year, bin_size) {
     geom_bar(stat = "identity", position = "stack", width = 0.9, color = "black", linewidth = 0.5) +
     scale_x_discrete(labels = c("2.5-3","3-6","6-9","9-12","12-15","15-18","18-21","21-24","24-27","27-30"),
                      limits = factor(br)) +
-    scale_fill_manual(values = c("Alive" = "darkolivegreen3", "Dead" = "burlywood4")) +
+    scale_fill_manual(values = c("Alive" = "darkgreen", "Dead" = "salmon4")) +
     xlab("DBH Size Class (cm)") +
     ylab("Relative Frequency") +
     ggtitle(paste("Size Frequency Distribution -", year)) +
@@ -272,9 +272,9 @@ densiometer_data_table <- function(densiometer_data) {
     cols_label(
       empty = md('&emsp;&emsp;&emsp;'),
       SY = md("Year <br/> &emsp; "),
-      Alive = md("Alive"),
-      Dead = md("Dead"),
-      Open = md("Open")
+      Alive = md("Green Canopy"),
+      Dead = md("Woody Canopy"),
+      Open = md("Open Sky")
     ) %>% 
     cols_align(align = "center", everything()) %>%
     cols_width(empty ~ px(30),
@@ -334,18 +334,18 @@ densiometer_figure <- function(densiometer_data) {
   
   d2 %>%
     ggplot(aes(x = factor(SY))) +
-    geom_bar(aes(y = Veg, fill = "Alive"), stat = "identity") +
-    geom_bar(aes(y = -Wood, fill = "Dead"), stat = "identity") +
-    geom_line(aes(y = Open, group = 1, color = "Open Area"), 
+    geom_bar(aes(y = Veg, fill = "Green Canopy"), stat = "identity") +
+    geom_bar(aes(y = -Wood, fill = "Woody Canopy"), stat = "identity") +
+    geom_line(aes(y = Open, group = 1, color = "Open Sky"), 
               size = 1.5, alpha = .85, linetype = "solid") +
-    geom_point(aes(y = Open, group = 1, color = "Open Area"), 
+    geom_point(aes(y = Open, group = 1, color = "Open Sky"), 
                size = 1.5, alpha = .50) +
     facet_wrap(~Site) +
     scale_y_continuous(limits = c(-50,100), labels = abs) +
     labs(y = "Canopy Cover (%)", x = "Year", fill = "Cover Type", color = element_blank()) +
     theme_Publication() +
-    scale_fill_manual(values = c("Alive" = "darkolivegreen3", "Dead" = "burlywood4")) +
-    scale_color_manual(values = c("Open Area" = "deepskyblue"))
+    scale_fill_manual(values = c("Green Canopy" = "darkolivegreen3", "Woody Canopy" = "burlywood4")) +
+    scale_color_manual(values = c("Open Sky" = "deepskyblue"))
 }
 
 # ------------------------------------------------------------------------------

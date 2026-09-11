@@ -716,44 +716,50 @@ sapling_rel_abundance_table(regen =  regen_data, sapling = sapling_data, species
 ```
 
 
+
 ### **Methods**
 
+::: {.column width="100%"}
 
-::: {.columns style="gap: 0;"}
+Regeneration surveys measure all steps of mangrove reproduction including seed germination, seed or propagule development, dispersal, establishment and growth into seedlings and saplings.
 
-::: {.column width="50%"}
+Regeneration is measured in four replicate 1 square meter quadrats, placed in the same location annually: from 4.65 m to 5.65 m out from the radial plot’s center in each cardinal direction (N, S, E, W). All seeds and propagules within these quadrats are counted and identified to species with root presence noted, all **seedlings** are identified to species and tallied, the height and species of the tallest seedling is recorded, each **sapling** is identified to species and measured for height and **DBH**. For any saplings shorter than 1.4 m, diameter is recorded at the base of the tree.
 
-![Measuring DBH at Reef Bay](../images/BreastHeight.jpg){width=100%}
+**Seedlings** are any mangrove with a height less than 50 cm.
 
-![Visualization of Basal Area in a Radial Plot](../images/BasalArea.jpg){width=100%}
+**Saplings** are mangroves taller than 50 cm with a DBH less than 2.5 cm.
 
-![Measuring DBH at Southgate (Photo Credit Allie Durdall)](../images/MeasringDBH_SG_2021_AD.jpg){width=100%}
-
-<br>
-
-![Measuring Tree Heights using the Tree Pole (Photo Credit Allie Durdall)](../images/TreeHeights_BB_2021_AD.jpg){width=100%}
-
+**DBH** — Diameter at Breast Height: the diameter of a tree 1.4 meters above the ground.
 
 :::
 
-::: {.column width="50%" style="min-width: 0; width: 70%;"}
+::: {.columns style="display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 0 !important; margin: 0 !important; padding: 0 !important;"}
 
-Regeneration surveys measure all steps of mangrove reproduction including seed germination, seed or propagule development, dispersal, establishment and growth into seedlings and saplings. 
+::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-Regeneration is measured in four replicate 1 square meter quadrats, placed in the same location annually: from 4.65 m to 5.65 m out from the radial plot’s center in each cardinal direction (N, S, E, W). All seeds and propagules within these quadrats are counted and identified to species with root presence noted, all **seedlings** are identified to species and tallied, the height and species of the tallest seedling is recorded, each **sapling** is identified to species and measured for height and **DBH**.
+![Regeneration Methods](../images/Regeneration.jpg){width=100%}
 
-**Seedlings** are any mangrove with a height less than 50cm.
+:::
 
-**Saplings** are mangroves taller than 50cm with a DBH less than 2.5cm. 
+::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-**DBH** Diameter at Breast Height: the diameter of a tree 1.4 meters above the ground
+![Regeneration plot at Compass Point (Photo Credit Lila Uzzell)](../images/Regen_CP_2024_LU.jpg){width=100%}
+
+:::
+
+::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
+
+![Measuring Seedlings at Mandahl (Photo Credit Allie Durdall)](../images/RegenPerson_Mandahl_2022-AD.jpg){width=100%}
+
+:::
+
+::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
+
+![Measuring Saplings in Princess Bay (Photo Credit Allie Durdall)](../images/RegenSaplingsPeople_HHPB_2023_AD.jpg){width=100%}
 
 :::
 
 :::
-
-
-
 
 
 # Woody Debris
@@ -784,19 +790,40 @@ water_qual_table(YSI = YSI_data) %>%
  
 # Partners
  
- University of the Virgin Islands (UVI)
- Virgin Islands Department of Planning and Natural Resources (DPNR)
- Division of Coastal Zone Management
+University of the Virgin Islands (UVI)
+Virgin Islands Department of Planning and Natural Resources (DPNR)
+Division of Coastal Zone Management
 Division of Fish and Wildlife
 National Park Service (NPS)
- Virgin Islands EcoTours
- St. Croix Environmental Association
+Virgin Islands EcoTours
+St. Croix Environmental Association
 U.S. Geological Survey (USGS).
+
+# Field Crew
+
+We want to thank everyone who has gotten out into the mud and the mangroves with us and helped collect this data, it wouldn't have been possible without you!
+
+**2022 Field Crew**
+Allison Holevoet, Allie Durdall, Calypso, Camille, Caroline Pott, Ellie, Heather Stewart, Hilary, Jen Vailulus, Jenna Cheramie, Jonathan Turbe, Julia Plotkin, Kayla Halliday, Kelcie, Kristin Wilson Grimes, Laura Bloem, Lila Uzzell, Lincoln Critchley, Pedro Nieves, Sierrah Mueller, Victoria Beasly, Zach Briggs
+
+**2023 Field Crew**
+Allie Durdall, Allison Holevoet, Denny Gonzalez, Jordan Silva, Julia Plotkin, Kayla Halliday, Kristin Wilson Grimes, Kwami Alexander, Laura Bloem, Lila Uzzell, Miranda Goad, Molly Mason (KT, TNT,LB)
+
+**2024 Field Crew**
+Allie Durdall, Denny Gonzalez, Helova Mathurin, Jonicia Cardin, Kaitlin Rommelfanger, Kayla Halliday, Kristin Wilson Grimes, Lila Uzzell, Sarai Hutchinson, Sierrah Mueller, Jordan Silva, (TC, JH, NK, HB)  
+
+**2025 Field Crew**
+Aaliya Warner Rawlins, Allie Durdall, Kaitlin Rommelfanger, Kristin Wilson Grimes, Lila Uzzell, Laura Bloem, Miranda Goad, Sarai Hutchinson, Shelby Adkins, Sophia Bilotta, Taquanna Baron, Tara Thompson (Need to Add Featherleaf People)
+
+**2026 Field Crew**
+
 
  
 # Contact Us
 
-The Territorial Mangrove Monitoring Program is led by the Grimes Lab. The Grimes Lab operates in the Center for Marine and Environmental Studies at the University of the Virgin Islands.
+The Territorial Mangrove Monitoring Program is led by the Grimes Lab who operates in the Center for Marine and Environmental Studies at the University of the Virgin Islands.
 
-grroevi@gmail.com
+Have questions, or want more information about the Territorial Mangrove Monitoring Program?
+
+Contact us at grroevi@gmail.com
  

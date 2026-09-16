@@ -1,6 +1,7 @@
 ---
 title: "The Territorial Mangrove Monitoring Program"
 author: "Grimes Lab, University of the Virgin Islands"
+site-url: https://k-rommelfanger.github.io/TMMPdashboard/
 format: 
   dashboard:
     logo: GRROE_Logo.png

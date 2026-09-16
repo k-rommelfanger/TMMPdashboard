@@ -130,7 +130,7 @@ Monument (Vessup Bay, Francis Bay, Lameshur Bay, Mary Creek, Princess Bay, Reef 
 
 At each site, three permanent 0.01 hectare circular plots, with a radius of 5.65m were established at least 10 meters apart. 
 
-![Example Radial plots](../images/RadialPlots.jpg){width=70%}
+![Example Radial plots](images/RadialPlots.jpg){width=70%}
 
 
 
@@ -139,15 +139,15 @@ At each site, three permanent 0.01 hectare circular plots, with a radius of 5.65
 ::: {.columns style="gap: 0;"}
 
 ::: {.column width="50%"}
-![Princess Bay Fringe](../images/Fringe.jpg){width="800px"}
+![Princess Bay Fringe](images/Fringe.jpg){width="800px"}
 
 <br><br><br>
 
-![Magens Bay Basin](../images/Basin.jpg){width="100%"}
+![Magens Bay Basin](images/Basin.jpg){width="100%"}
 
 <br><br><br>
 
-![Reef Bay Salt Pond](../images/SaltPond.jpg){width="100%"}
+![Reef Bay Salt Pond](images/SaltPond.jpg){width="100%"}
 :::
 
 ::: {.column width="50%" style="min-width: 0; width: 50%;"}
@@ -204,15 +204,15 @@ densiometer_data_table(densiometer_data = densiometer_data) %>%
 
 ::: {.column width="50%"}
 
-![Measuring Canopy Cover (Photo Credit Lila Uzzell)](../images/Densiometer_Steer_24_LU.jpg){width=100%}
+![Measuring Canopy Cover (Photo Credit Lila Uzzell)](images/Densiometer_Steer_24_LU.jpg){width=100%}
 
 <br>
 
-![Densiometer Face](../images/DensiometerDots.jpg){width=100%}
+![Densiometer Face](images/DensiometerDots.jpg){width=100%}
 
 <br>
 
-![Densiometer Directions](../images/DensiometerDirections.jpg){width=100%}
+![Densiometer Directions](images/DensiometerDirections.jpg){width=100%}
 
 :::
 
@@ -490,15 +490,15 @@ create_tree_measurement_table(tree_measurements = tree_measurements, tree_height
 
 ::: {.column width="50%"}
 
-![Measuring DBH at Reef Bay](../images/BreastHeight.jpg){width=100%}
+![Measuring DBH at Reef Bay](images/BreastHeight.jpg){width=100%}
 
-![Visualization of Basal Area in a Radial Plot](../images/BasalArea.jpg){width=100%}
+![Visualization of Basal Area in a Radial Plot](images/BasalArea.jpg){width=100%}
 
-![Measuring DBH at Southgate (Photo Credit Allie Durdall)](../images/MeasringDBH_SG_2021_AD.jpg){width=100%}
+![Measuring DBH at Southgate (Photo Credit Allie Durdall)](images/MeasringDBH_SG_2021_AD.jpg){width=100%}
 
 <br>
 
-![Measuring Tree Heights using the Tree Pole (Photo Credit Allie Durdall)](../images/TreeHeights_BB_2021_AD.jpg){width=100%}
+![Measuring Tree Heights using the Tree Pole (Photo Credit Allie Durdall)](images/TreeHeights_BB_2021_AD.jpg){width=100%}
 
 
 :::
@@ -644,7 +644,7 @@ The **Diameter at Breast height (DBH)** measurement is recorded for every **adul
 
 **Adult trees** are any tree with a DBH greater than 2.5cm. 
 
-![Measuring DBH at Southgate](../images/MeasringDBH_SG_2021_AD.jpg){width=60%}
+![Measuring DBH at Southgate](images/MeasringDBH_SG_2021_AD.jpg){width=60%}
 
 
 # **Regeneration** {.tabset}
@@ -657,7 +657,7 @@ The **Diameter at Breast height (DBH)** measurement is recorded for every **adul
 
 Young trees that are rooted in the ground and less than 50cm tall are classified as **seedlings**. 
 
-![Seedlings at Brewers Bay (Photo Credit Allie Durdall)](../images/RegenWhiteRed_BB_2022_AD.jpg)
+![Seedlings at Brewers Bay (Photo Credit Allie Durdall)](images/RegenWhiteRed_BB_2022_AD.jpg)
 ```{r}
 #| padding: 2px
 #| fig-cap: "Average seedling density (seedlings per square meter) at each site . Stars show average height of the tallest seedling"
@@ -691,7 +691,7 @@ seedling_rel_abundance_table(regen_data = regen_data) %>%
 Young trees that are taller than 50cm, and with a diameter at breast height (DBH) less than 2.5cm are classified as **saplings**.
 
 #####
-![Measuring Saplings at Compass Point (Photo Credit Allison Holevoet)](../images/RegenRedSaplings_People_CP_2022_AJH.jpg){width=80%}
+![Measuring Saplings at Compass Point (Photo Credit Allison Holevoet)](images/RegenRedSaplings_People_CP_2022_AJH.jpg){width=80%}
 
 #### **R. mangle Density**
 ```{r}
@@ -752,25 +752,25 @@ Regeneration is measured in four replicate 1 square meter quadrats, placed in th
 
 ::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-![Regeneration Methods](../images/Regeneration.jpg){width=100%}
+![Regeneration Methods](images/Regeneration.jpg){width=100%}
 
 :::
 
 ::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-![Regeneration plot at Compass Point (Photo Credit Lila Uzzell)](../images/Regen_CP_2024_LU.jpg){width=100%}
+![Regeneration plot at Compass Point (Photo Credit Lila Uzzell)](images/Regen_CP_2024_LU.jpg){width=100%}
 
 :::
 
 ::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-![Measuring Seedlings at Mandahl (Photo Credit Allie Durdall)](../images/RegenPerson_Mandahl_2022-AD.jpg){width=100%}
+![Measuring Seedlings at Mandahl (Photo Credit Allie Durdall)](images/RegenPerson_Mandahl_2022-AD.jpg){width=100%}
 
 :::
 
 ::: {.column style="width: 25% !important; flex: 0 0 25% !important; padding: 0 !important; margin: 0 !important;"}
 
-![Measuring Saplings in Princess Bay (Photo Credit Allie Durdall)](../images/RegenSaplingsPeople_HHPB_2023_AD.jpg){width=100%}
+![Measuring Saplings in Princess Bay (Photo Credit Allie Durdall)](images/RegenSaplingsPeople_HHPB_2023_AD.jpg){width=100%}
 
 :::
 
@@ -810,19 +810,19 @@ WoodyBarPlot(WoodyDataFrame)
 ::: {.columns style="gap: 0;"}
 
 ::: {.column width="50%"}
-![Woody Debris Transects](../images/Woody Debris Methods.jpg){width="800px"}
+![Woody Debris Transects](images/Woody Debris Methods.jpg){width="800px"}
 
 <br><br><br>
 
-![Taking a Woody Debris Heading at Southgate (Photo Credit Allie Durdall)](../images/TakingAHeading_SG_2021_AD.jpg){width="100%"}
+![Taking a Woody Debris Heading at Southgate (Photo Credit Allie Durdall)](images/TakingAHeading_SG_2021_AD.jpg){width="100%"}
 
 <br><br><br>
 
-![Collecting woody debris data at Vessup Bay (Photo Credit Lila Uzzell)](../images/Woody_VB_21_LU (1).jpg){width="100%"}
+![Collecting woody debris data at Vessup Bay (Photo Credit Lila Uzzell)](images/Woody_VB_21_LU (1).jpg){width="100%"}
 
 <br><br><br>
 
-![Collecting woody debris data at Mary Creek](../images/WoodyRegenPeople_MC_2022.jpg){width="100%"}
+![Collecting woody debris data at Mary Creek](images/WoodyRegenPeople_MC_2022.jpg){width="100%"}
 
 :::
 
@@ -931,15 +931,15 @@ water_qual_table(YSI = wqcleanedraw ) %>%
 ::: {.columns style="gap: 0;"}
 
 ::: {.column width="50%"}
-![Using YSI to measure water Quality at Magens Bay](../images/YSI3_MB_2022.jpg){width="800px"}
+![Using YSI to measure water Quality at Magens Bay](images/YSI3_MB_2022.jpg){width="800px"}
 
 <br><br><br>
 
-![Collecting water inside the plot at Brewers Bay (Photo Credit Allie Durdall)](../images/WaterQualitySyringe_BB_2022_AD.jpg){width="100%"}
+![Collecting water inside the plot at Brewers Bay (Photo Credit Allie Durdall)](images/WaterQualitySyringe_BB_2022_AD.jpg){width="100%"}
 
 <br><br><br>
 
-![Collecting water adjacent to the plot at Southgate (Photo Credit Allison Holevoet)](../images/SyringeYSI_SG_2023_AJH.jpg){width="100%"}
+![Collecting water adjacent to the plot at Southgate (Photo Credit Allison Holevoet)](images/SyringeYSI_SG_2023_AJH.jpg){width="100%"}
 :::
 
 ::: {.column width="50%" style="min-width: 0; width: 50%;"}
@@ -960,7 +960,7 @@ If there is no standing water in the plot, water samples are taken from the clos
 
 # Partners
 
-<img src="../images/Collaborators and Partners.jpg"  width="100%">
+<img src="images/Collaborators and Partners.jpg"  width="100%">
 
 <div style="height: 150px;"></div>
 
@@ -973,21 +973,21 @@ If there is no standing water in the plot, water samples are taken from the clos
 **2022 Field Crew**
 Allison Holevoet, Allie Durdall, Calypso, Camille, Caroline Pott, Ellie, Heather Stewart, Hilary, Jen Vailulus, Jenna Cheramie, Jonathan Turbe, Julia Plotkin, Kayla Halliday, Kelcie, Kristin Wilson Grimes, Laura Bloem, Lila Uzzell, Lincoln Critchley, Pedro Nieves, Sierrah Mueller, Victoria Beasly, Zach Briggs
 
-<img src="../images/2022.jpg" alt="2022 Field Crew" width="100%">
+<img src="images/2022.jpg" alt="2022 Field Crew" width="100%">
 
 <div style="height: 150px;"></div>
 
 **2023 Field Crew**
 Allie Durdall, Allison Holevoet, Denny Gonzalez, Jordan Silva, Julia Plotkin, Kayla Halliday, Kristin Wilson Grimes, Kwami Alexander, Laura Bloem, Lila Uzzell, Miranda Goad, Molly Mason (KT, TNT,LB)
 
-<img src="../images/2023.jpg" alt="2023 Field Crew" width="100%">
+<img src="images/2023.jpg" alt="2023 Field Crew" width="100%">
 
 <div style="height: 150px;"></div>
 
 **2024 Field Crew**
 Allie Durdall, Denny Gonzalez, Helova Mathurin, Jonicia Cardin, Kaitlin Rommelfanger, Kayla Halliday, Kristin Wilson Grimes, Lila Uzzell, Sarai Hutchinson, Sierrah Mueller, Jordan Silva, (TC, JH, NK, HB)  
 
-<img src="../images/2024.jpg" alt="2024 Field Crew" width="100%">
+<img src="images/2024.jpg" alt="2024 Field Crew" width="100%">
 
 <div style="height: 150px;"></div>
 
@@ -995,14 +995,14 @@ Allie Durdall, Denny Gonzalez, Helova Mathurin, Jonicia Cardin, Kaitlin Rommelfa
 **2025 Field Crew**  
 Aaliya Warner Rawlins, Allie Durdall, Kaitlin Rommelfanger, Kristin Wilson Grimes, Lila Uzzell, Laura Bloem, Miranda Goad, Sarai Hutchinson, Shelby Adkins, Sophia Bilotta, Taquanna Baron, Tara Thompson (Need to Add Featherleaf People)
 
-<img src="../images/2025.jpg" alt="2025 Field Crew" width="100%">
+<img src="images/2025.jpg" alt="2025 Field Crew" width="100%">
 
 <div style="height: 150px;"></div>
 
 **2026 Field Crew**  
 Crew goes here
 
-<img src="../images/2026.jpg" alt="2026 Field Crew" width="100%">
+<img src="images/2026.jpg" alt="2026 Field Crew" width="100%">
 
  
 # Contact Us

@@ -434,7 +434,8 @@ seedling_density <- function(regen, densio, breaks = NULL) {
     } +
     labs(x = element_blank(), fill = "SY", color = "SY") +
     theme_Publication() +
-    scale_color_manual(values = c("#CC3333", "#006600", "#3366CC")) +
+    scale_color_manual(values = c("#889A34", "#006600", "#B5651D")) +
+    scale_fill_manual(values = c( "#889A34", "#006600","#B5651D"))+
     theme(axis.text.x = element_text(angle=45, vjust = 1, hjust = 1),
           axis.text = element_text(size = 12),
           axis.title.y.right = element_text(family = "Calibri", size = 12),
@@ -544,7 +545,7 @@ sapling_density <- function(regen, sapling, species, densio, breaks = NULL) {
     } +
     labs(x = element_blank(), fill = "SY", color = "SY") +
     theme_Publication() +
-    scale_color_manual(values = c("#CC3333", "#006600", "#3366CC")) +
+    scale_color_manual(values = c("#889A34", "#006600", "#B5651D")) +
     theme(axis.text.x = element_text(angle=45, vjust = 1, hjust = 1),
           axis.text = element_text(size = 12),
           axis.title.y.right = element_text(family = "Calibri", size = 12),

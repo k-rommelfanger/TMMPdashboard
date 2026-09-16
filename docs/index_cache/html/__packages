@@ -16,3 +16,5 @@ leaflet
 htmltools
 ggthemes
 extrafont
+patchwork
+plotrix

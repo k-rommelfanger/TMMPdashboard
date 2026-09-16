@@ -22,12 +22,18 @@ library(webshot2)
 library(ggbreak)
 library(leaflet)
 library(htmltools)
+library(plotrix)
+
+wqcleanedraw<-read_csv("../import_data/8_12_2026 AKKR TMMP Water Quality - Clean_WQSamplePoints.csv")
+
 
 # Source Plotting Functions
 source("../scripts/TMMP_functions.R", local = knitr::knit_global())
 source("../scripts/labeler.R", local = knitr::knit_global())
 source("../scripts/theme_publication.R", local = knitr::knit_global())
 source("../scripts/WoodyFunction.R", local = knitr::knit_global())
+source("../scripts/Water_Quality_Functions.R", local = knitr::knit_global())
+source("../scripts/PlotLeveTreeCountsFunction.R", local = knitr::knit_global())
 
 
 
@@ -42,6 +48,7 @@ sapling_data <- read_xlsx(Mangrove_Input_Excel_File, sheet = "Sapling")
 YSI_data <- read_xlsx(Mangrove_Input_Excel_File, sheet = "YSI Water Quality data")
 Coarsewood <- read_csv("../import_data/QA_QC TMMP Data 6-25-25 - Coarse woody debris.csv")
 FineWood <- read_csv("../import_data/QA_QC TMMP Data 6-25-25 - Wood debris.csv")
+wqcleanedraw<-read_csv("../import_data/8_12_2026 AKKR TMMP Water Quality - Clean_WQSamplePoints.csv")
 ```
 
 
@@ -422,40 +429,47 @@ addControl(
   
 ```
 
-### **Species Distribution**
+### **Species Distribution** {.tabset}
 
-#### **Fringe Sites**
+#### Tree Counts at Basin Sites
 ```{r}
-#| title: Tree Counts Fringe
 #| cache: true
+#| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Basin Sites. Trees are separated by species and mortality"
 
-#Here I am going to put the stacked bar-plots of tree counts by species, I need to make the figure into a function that loops through the years and then stacks all the years on top of each other
+Basin<-c("Magens Bay", "STEER Basin")
+colors<-c("#4d4b4a","darkgrey","salmon4","#c19a6b","#9b111e","#c21e56")
 
-#need to decide if I want to group by island/by forest type
 
+TreeDistribution(Basin)
 
 ```
 
-#### ** Basin Sites**
+#### Tree Counts at Fringe Sites
 ```{r}
-#| title: Tree Counts Basin
 #| cache: true
+#| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Fringe Sites. Trees are separated by species and mortality"
 
-#Here I am going to put the stacked bar-plots of tree counts by species, I need to make the figure into a function that loops through the years and then stacks all the years on top of each other
 
-#need to decide if I want to group by island/by forest type
+Fringe<-c("Brewers Bay","Krause Lagoon","Mandahl Bay","Mary Creek","Princess Bay","Salt River","STEER Fringe","Turner Bay","Vessup Bay","Water Creek")
 
+colors<-c("#4d4b4a","darkgrey","salmon4","#c19a6b","#9b111e","#c21e56")
+
+TreeDistribution(Fringe)
 
 ```
-#### **Salt Pond Sites**
+
+
+#### Tree Counts at Salt Pond Sites
 ```{r}
-#| title: Tree Counts Salt Pond
 #| cache: true
+#| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Salt Pond Sites. Trees are separated by species and mortality"
 
-#Here I am going to put the stacked bar-plots of tree counts by species, I need to make the figure into a function that loops through the years and then stacks all the years on top of each other
 
-#need to decide if I want to group by island/by forest type
+SaltPond<-c("Compass Point","Francis Bay","Great Pond","Lameshur Bay","Perseverance Bay","Reef Bay","Southgate")
 
+colors<-c("#4d4b4a","darkgrey","salmon4","#c19a6b","#9b111e","#c21e56")
+
+TreeDistribution(SaltPond)
 
 ```
 
@@ -647,7 +661,7 @@ Young trees that are rooted in the ground and less than 50cm tall are classified
 #| padding: 2px
 #| fig-cap: "Average seedling density (seedlings per square meter) at each site . Stars show average height of the tallest seedling"
 #| fig-align: center
-#| cache: true
+
  
 seedling_density(regen = regen_data, densio = densiometer_data, breaks = 15)
 
@@ -762,12 +776,15 @@ Regeneration is measured in four replicate 1 square meter quadrats, placed in th
 :::
 
 
-# Woody Debris
+# Woody Debris {.tabset}
+
+## Column {width=80%} {.tabset}
+
 
 ```{r, , cache=FALSE}
 #| title: Woody Debris
 #| padding: 2px
-#| cache: true
+#| fig-cap: "Woody debris mass (tonnes/ha) at each site."
 
 WoodyDataFrame<-WoodyDF(FineWood = FineWood, CoarseWood = Coarsewood)
 WoodyBoxPlot(WoodyDataFrame)
@@ -775,48 +792,216 @@ WoodyBoxPlot(WoodyDataFrame)
 ```
 
 
+
+```{r}
+#| title: Woody Debris
+#| padding: 2px
+#| fig-cap: "Mean woody debris mass (tonnes/ha) at each site. Mean mass of coarse woody debris on the positive axes mean mass of fine woody debris on the negative axis"
+
+WoodyDataFrame<-WoodyDF(FineWood = FineWood, CoarseWood = Coarsewood)
+WoodyBarPlot(WoodyDataFrame)
+
+
+```
+
+### Methods
+
+::: {.columns style="gap: 0;"}
+
+::: {.column width="50%"}
+![Woody Debris Transects](../images/Woody Debris Methods.jpg){width="800px"}
+
+<br><br><br>
+
+![Taking a Woody Debris Heading at Southgate (Photo Credit Allie Durdall)](../images/TakingAHeading_SG_2021_AD.jpg){width="100%"}
+
+<br><br><br>
+
+![Collecting woody debris data at Vessup Bay (Photo Credit Lila Uzzell)](../images/Woody_VB_21_LU (1).jpg){width="100%"}
+
+<br><br><br>
+
+![Collecting woody debris data at Mary Creek](../images/WoodyRegenPeople_MC_2022.jpg){width="100%"}
+
+:::
+
+::: {.column width="50%" style="min-width: 0; width: 50%;"}
+
+At each plot (A, B, C), three transects originating from the center of the plot in randomly generated headings are sampled for woody debris. These transects run for 20 meters unless they meet upland vegetation, rocky cliffs, or other change from mangrove habitat. 
+
+<br><br><br>
+
+Downed wood intersecting the transect and appearing up to 1 m above the soil surface, is tallied. Along each transect, intersecting fine woody debris (≤ 1 cm diameter) is counted from 2 m to 4 m along the transect, medium woody debris (1-7.5 cm diameter) is counted from 2 m - 6 m along the transect, and coarse woody debris (> 7.5 cm diameter) is counted along the entire 0 m - 20 m transect. 
+
+
+**fine woody debris 2-4m**
+<br>
+**medium woody debris 2-6m**
+<br>
+**coarse woody debris whole transect**
+
+
+
+
+For coarse woody debris only, the diameter of each piece was measured with metal calipers and assigned a decay class (as per Krauss et al., 2005, who modeled their method after Robertson & Daniel, 1989). 
+
+
+Decay Classess
+
+(1) Sound: no signs of decomposition, no penetration of large metal calipers when taking diameter measurement
+(2) Intermediate: slight penetration of metal calipers
+(3) Rotten: metal calipers penetrate very easily. 
+
+
+Using standard values and equations, (Krauss et al., 2005, Allen et al., 2000) woody debris counts are translated into woody debris volume and total mass of woody debris for each transect. 
+
+Woody debris Volume = π²(Σd²)/8L * k
+
+d= diameter of woody debris
+L=length of transect sampled
+k=hectare conversion constant (10,000m³/ha)
+
+For fine and medium debris, the diameter for all debris was assumed to be the median of each category fine=0.5cm, medium=4.25cm
+
+
+To convert volume of woody debris to mass, scaling relationships calculated from mangrove density data were used (Krause et al., 2005)
+
+ For all debris <7.5cm in diameter = 0.5 t/m³
+ Sound coarse debris = 0.5 t/m³
+ Intermediate Coarse Debris 0.35 t/m³
+ Rotten Coarse Debris 0.2 t/m³
+
+
+All figures compare final woody debris volume across sites. 
+
+
+
+:::
+
+:::
+
 # **Water Quality**
 
 ## Column {width=80%} {.tabset}
 
+### **Temperature**
 ```{r}
-#| title: Water Quality
 #| cache: true
+#| fig-cap: "Temperature (C) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual temperature reading. Point color indicates plot name and point shape indicates sample year. Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers"
 
-water_qual_table(YSI = YSI_data) %>% 
+Restoftheplots(yvalue = Temp, ylab = "Temperature (C)")
+
+```
+### **Dissolved Oxygen**
+```{r}
+#| cache: true
+#| fig-cap: "Dissolved Oxygen (mg/L) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual dissolved oxygen reading. Point color indicates plot name and point shape indicates sample year. Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers."
+
+Restoftheplots(yvalue = DO_mg_L, ylab = "Dissolved Oxygen (mg/L")
+```
+### **Salinity**
+```{r}
+#| cache: true
+#| fig-height: 5.5
+#| fig-cap: "Salinity (ppt) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual salinity reading. Point color indicates plot name and point shape indicates sample year. The dashed horizontal line represents average ocean salinity (35ppt). Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers."
+
+salinityplot(yvalue = Salinity_ppt, ylab = "Salinity (mg/L)")
+``` 
+### **Total Dissolved Solids**
+```{r}
+#| cache: true
+#| fig-cap: "Total Dissolved Solids (mg/L) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual total dissolved solids reading. Point color indicates plot name and point shape indicates sample year. Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers."
+
+
+Restoftheplots(yvalue = TDS, ylab = "Dissolved Oxygen (mg/L)")
+```
+### **Water Quality Summary Table** 
+```{r}
+#| cache: true
+#| tbl-cap: "Summary of mean water quality metrics (+/- SEM) for all Territorial Mangrove Monitoring Program sites including Water depth (cm), Temperature (C), Dissolved Oxygen (mg/L), Salinity (ppt), and Total Dissolved Solids (mg/L)"
+
+water_qual_table(YSI = wqcleanedraw ) %>% 
   tab_options(table.width = "75%") %>% 
   opt_table_font(size = "18px")
 ```
- 
+
+### **Methods** 
+
+::: {.columns style="gap: 0;"}
+
+::: {.column width="50%"}
+![Using YSI to measure water Quality at Magens Bay](../images/YSI3_MB_2022.jpg){width="800px"}
+
+<br><br><br>
+
+![Collecting water inside the plot at Brewers Bay (Photo Credit Allie Durdall)](../images/WaterQualitySyringe_BB_2022_AD.jpg){width="100%"}
+
+<br><br><br>
+
+![Collecting water adjacent to the plot at Southgate (Photo Credit Allison Holevoet)](../images/SyringeYSI_SG_2023_AJH.jpg){width="100%"}
+:::
+
+::: {.column width="50%" style="min-width: 0; width: 50%;"}
+
+At each plot, three repetitions of water quality sampling are recorded using a handheld YSI. Water depth is measured in cm with a ruler. Ideally, water quality data will be recorded from three separate locations in the standing water inside the plot. 
+
+<br><br><br><br><br><br>
+
+If the standing water is not deep enough to completely submerge the handheld YSI, standing water is taken up by a syringe and collected in a nalgene bottle. The YSI is submerged in the collected water in the nalgene bottle.
+
+<br><br><br><br><br><br>
+
+If there is no standing water in the plot, water samples are taken from the closest standing water adjacent to the plot. 
+
+:::
+
+:::
+
 # Partners
- 
-University of the Virgin Islands (UVI)
-Virgin Islands Department of Planning and Natural Resources (DPNR)
-Division of Coastal Zone Management
-Division of Fish and Wildlife
-National Park Service (NPS)
-Virgin Islands EcoTours
-St. Croix Environmental Association
-U.S. Geological Survey (USGS).
+
+<img src="../images/Collaborators and Partners.jpg"  width="100%">
+
+<div style="height: 150px;"></div>
 
 # Field Crew
 
-We want to thank everyone who has gotten out into the mud and the mangroves with us and helped collect this data, it wouldn't have been possible without you!
+**We want to thank everyone who has gotten out into the mud and the mangroves with us and helped collect this data, none of this would have been possible without you!**
+
+<br><br><br><br><br><br>
 
 **2022 Field Crew**
 Allison Holevoet, Allie Durdall, Calypso, Camille, Caroline Pott, Ellie, Heather Stewart, Hilary, Jen Vailulus, Jenna Cheramie, Jonathan Turbe, Julia Plotkin, Kayla Halliday, Kelcie, Kristin Wilson Grimes, Laura Bloem, Lila Uzzell, Lincoln Critchley, Pedro Nieves, Sierrah Mueller, Victoria Beasly, Zach Briggs
 
+<img src="../images/2022.jpg" alt="2022 Field Crew" width="100%">
+
+<div style="height: 150px;"></div>
+
 **2023 Field Crew**
 Allie Durdall, Allison Holevoet, Denny Gonzalez, Jordan Silva, Julia Plotkin, Kayla Halliday, Kristin Wilson Grimes, Kwami Alexander, Laura Bloem, Lila Uzzell, Miranda Goad, Molly Mason (KT, TNT,LB)
+
+<img src="../images/2023.jpg" alt="2023 Field Crew" width="100%">
+
+<div style="height: 150px;"></div>
 
 **2024 Field Crew**
 Allie Durdall, Denny Gonzalez, Helova Mathurin, Jonicia Cardin, Kaitlin Rommelfanger, Kayla Halliday, Kristin Wilson Grimes, Lila Uzzell, Sarai Hutchinson, Sierrah Mueller, Jordan Silva, (TC, JH, NK, HB)  
 
-**2025 Field Crew**
+<img src="../images/2024.jpg" alt="2024 Field Crew" width="100%">
+
+<div style="height: 150px;"></div>
+
+
+**2025 Field Crew**  
 Aaliya Warner Rawlins, Allie Durdall, Kaitlin Rommelfanger, Kristin Wilson Grimes, Lila Uzzell, Laura Bloem, Miranda Goad, Sarai Hutchinson, Shelby Adkins, Sophia Bilotta, Taquanna Baron, Tara Thompson (Need to Add Featherleaf People)
 
-**2026 Field Crew**
+<img src="../images/2025.jpg" alt="2025 Field Crew" width="100%">
 
+<div style="height: 150px;"></div>
+
+**2026 Field Crew**  
+Crew goes here
+
+<img src="../images/2026.jpg" alt="2026 Field Crew" width="100%">
 
  
 # Contact Us

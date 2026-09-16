@@ -68,6 +68,7 @@ return(SmallMedCoarseVolume)
 
 WoodyBarPlot <- function(WoodSummary) {
   
+  WoodSummary$Plot<-as.factor(WoodSummary$Plot)
 
 MeanMassPlot<-WoodSummary%>%
   mutate(SmallMass=FMass+MMass)%>%
@@ -88,6 +89,7 @@ MeanMassPlot<-WoodSummary%>%
   ) +
   geom_hline(yintercept = 0)+
   facet_wrap(~SY, ncol=1)+
+  theme_Publication()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   scale_fill_manual(values=c("#889A34","#B5651D"))+
   ylab("Mean Woody Debris Mass")
@@ -101,8 +103,12 @@ WoodyBoxPlot <- function(WoodSummary) {
   
   TotalMassPlot<-WoodSummary%>%
     ggplot(aes(x=Site, y=TotalMass,fill=SY))+
-    geom_boxplot()+
-    geom_point( position=position_dodge(width=0.75))+
+    geom_boxplot(outlier.size=0.75)+
+    geom_point(
+      aes(group = SY),
+      position = position_dodge(width = 0.75),
+      size = 0.75
+    )+
     theme_Publication()+
     theme(axis.text.x = element_text(angle = 45, hjust = 1))+
     ylab("Woody Debris (tonnes/ha)")+

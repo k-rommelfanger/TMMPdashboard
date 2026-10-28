@@ -906,7 +906,7 @@ Restoftheplots(yvalue = DO_mg_L, ylab = "Dissolved Oxygen (mg/L)")
 #| fig-height: 5.5
 #| fig-cap: "Salinity (ppt) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual salinity reading. Point color indicates plot name and point shape indicates sample year. The dashed horizontal line represents average ocean salinity (35ppt). Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers."
 
-salinityplot(yvalue = Salinity_ppt, ylab = "Salinity (mg/L)")
+salinityplot(yvalue = Salinity_ppt, ylab = "Salinity (ppt)")
 ``` 
 ### **Total Dissolved Solids**
 ```{r}

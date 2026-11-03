@@ -548,7 +548,7 @@ A positive (yellow) change in stem density indicates an increase in stems at thi
 
 ```{r results='asis', echo=FALSE, fig.width=12, fig.height=7}
 #| title: "2022"
-#| cache: true
+#| cache: FALSE
 #| fig-cap: "Relative frequency of trees in each size range at each site. Sizes are shown as diameter at breast height (DBH). Values are scaled to the total number of observed trees at each site. Green indicates living trees, brown indicates standing dead trees."
 
 all_sites_LF(tree_measurements = tree_measurements, year = 2022, bin_size = 3)

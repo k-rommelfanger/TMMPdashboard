@@ -343,7 +343,7 @@ densiometer_figure <- function(densiometer_data) {
     facet_wrap(~Site) +
     scale_y_continuous(limits = c(-50,100), labels = abs) +
     labs(y = "Canopy Cover (%)", x = "Year", fill = "Cover Type", color = element_blank()) +
-    theme_Publication() +
+   theme_Publication() +
     scale_fill_manual(values = c("Green Canopy" = "darkolivegreen3", "Woody Canopy" = "burlywood4")) +
     scale_color_manual(values = c("Open Sky" = "deepskyblue"))
 }

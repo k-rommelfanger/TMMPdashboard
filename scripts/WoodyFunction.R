@@ -1,4 +1,15 @@
-
+#____________________________________________________________________________________________________
+# Function: WoodyDF
+# Purpose: Calculate the total mass and volume for each transect 
+#
+# Parameters:
+#   - CoarseWood: cleaned coarse wood dataframe
+#   -FineWood: Cleaned fine wood dataframe
+#
+# Returns:
+#   - Calculates total mass and total volume of woody debris on each transect 
+#
+#Adding More Sample Years: This does a calculation for each row of data, nothing is needed when adding another sample year
 
 WoodyDF <- function(CoarseWood, FineWood) {
   
@@ -66,6 +77,18 @@ SmallMedCoarseVolume<-CoarseMergeVolume%>%
 return(SmallMedCoarseVolume)
 }
 
+#____________________________________________________________________________________________________
+# Function: WoodyBarPlot
+# Purpose: Plot the average total coarse and total fine woody debris volume at each site
+#
+# Parameters:
+#   -WoodSummary: The dataframe generated in Woody df function
+#
+# Returns:
+#   - Barplot with coarse woody debris and fine woody debris 
+#
+#Adding More Sample Years: This groups by sample year and site, and makes a plot for each sample year (facet wrap), no need to change anything when more sample years are added
+
 WoodyBarPlot <- function(WoodSummary) {
   
   WoodSummary$Plot<-as.factor(WoodSummary$Plot)
@@ -97,6 +120,17 @@ MeanMassPlot<-WoodSummary%>%
 return(MeanMassPlot)
 }
 
+#____________________________________________________________________________________________________
+# Function: WoodyBarPlot
+# Purpose: Create a boxplot showing the distribution of woody debris across different sample sites, there is a dot for each transect, and a boxplot for each year
+#
+# Parameters:
+#   -WoodSummary: The dataframe generated in Woody df function
+#
+# Returns:
+#   - boxplot, individual box for each year sampled. Each dot shows the total volume for a single transect
+#
+#Adding More Sample Years: Will need to add another color if there are more years in line 149, another color
 
 WoodyBoxPlot <- function(WoodSummary) {
   WoodSummary$SY<-as.factor(WoodSummary$SY)

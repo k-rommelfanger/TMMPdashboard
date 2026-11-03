@@ -436,7 +436,7 @@ addControl(
 ### **Species Distribution** {.tabset}
 
 #### Tree Counts at Basin Sites
-```{r}
+```{r, fig.height=10}
 #| cache: true
 #| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Basin Sites. Trees are separated by species and mortality."
 
@@ -449,7 +449,7 @@ TreeDistribution(Basin)
 ```
 
 #### Tree Counts at Fringe Sites
-```{r}
+```{r, fig.height=10}
 #| cache: true
 #| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Fringe Sites. Trees are separated by species and mortality."
 
@@ -464,7 +464,7 @@ TreeDistribution(Fringe)
 
 
 #### Tree Counts at Salt Pond Sites
-```{r}
+```{r, fig.height=10}
 #| cache: true
 #| fig-cap: "Total count of adult trees measured at all Territorial Mangrove Monitoring Salt Pond Sites. Trees are separated by species and mortality."
 

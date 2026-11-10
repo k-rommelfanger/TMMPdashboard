@@ -921,7 +921,7 @@ Restoftheplots(yvalue = TDS, ylab = "Total Dissolved Solids (mg/L)")
 ```
 ### **Water Quality Summary Table** 
 ```{r}
-#| cache: true
+#| cache: FALSE
 #| tbl-cap: "Summary of mean water quality metrics (+/- SEM) for all Territorial Mangrove Monitoring Program sites including Water depth (cm), Temperature (C), Dissolved Oxygen (mg/L), Salinity (ppt), and Total Dissolved Solids (mg/L)."
 
 water_qual_table(YSI = wqcleanedraw ) %>% 

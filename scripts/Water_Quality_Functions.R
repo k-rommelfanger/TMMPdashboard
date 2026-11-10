@@ -138,3 +138,7 @@ Restoftheplots <- function(yvalue, ylab){
 
 #Temperature
 Restoftheplots(yvalue = Temp, ylab = "Temperature (C)")
+
+
+
+

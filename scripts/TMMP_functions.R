@@ -743,7 +743,7 @@ water_qual_table <- function(YSI) {
   format_x <- a %>% 
     mutate(across(where(is.numeric), round, 1)) %>% 
     mutate(mean_SAL = round(mean_SAL, digits = 0),
-           mean_SAL_SE = round(mean_SAL_SE, digits = 0),
+           mean_SAL_SE = round(mean_SAL_SE, digits = 1), #was zero, changed to 1 because getting +-0
            mean_TDS = round(mean_TDS, digits = 0),
            mean_TDS_SE = round(mean_TDS_SE, digits = 0)) %>%
     mutate(

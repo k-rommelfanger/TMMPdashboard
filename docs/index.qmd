@@ -21,6 +21,7 @@ library(tidyverse)
 library(gt)
 library(readxl)
 library(webshot2)
+library(readr)
  
 library(ggbreak)
 library(leaflet)
@@ -52,7 +53,7 @@ sapling_data <- read_xlsx(Mangrove_Input_Excel_File, sheet = "Sapling")
 YSI_data <- read_xlsx(Mangrove_Input_Excel_File, sheet = "YSI Water Quality data")
 Coarsewood <- read_csv("../import_data/QA_QC TMMP Data 6-25-25 - Coarse woody debris.csv")
 FineWood <- read_csv("../import_data/QA_QC TMMP Data 6-25-25 - Wood debris.csv")
-wqcleanedraw<-read_csv("../import_data/8_12_2026 AKKR TMMP Water Quality - Clean_WQSamplePoints.csv")
+wqcleanedraw<-read_csv("../import_data/8_12_2026 AKKR TMMP Water Quality - Clean_WQSamplePoints-2.csv")
 ```
 
 
@@ -898,10 +899,10 @@ Restoftheplots(yvalue = Temp, ylab = "Temperature (C)")
 ```
 ### **Dissolved Oxygen**
 ```{r}
-#| cache: true
+#| cache: false
 #| fig-cap: "Dissolved Oxygen (mg/L) across survey years for all Territorial Mangrove Monitoring Program sites. Shaded regions represent forest type. Each point represents an individual dissolved oxygen reading. Point color indicates plot name and point shape indicates sample year. Box plots represent the minimum, maximum, quartiles one and three, and the median. Individual points outside whiskers represent outliers."
 
-Restoftheplots(yvalue = DO_mg_L, ylab = "Dissolved Oxygen (mg/L)")
+DOplot(yvalue = DO_mg_L, ylab = "Dissolved Oxygen (mg/L)")
 ```
 ### **Salinity**
 ```{r}
